@@ -1,0 +1,2552 @@
+
+
+
+
+//---- Attack names:
+6 = "none"
+// 7 = "daze"
+// 8 = "slow"
+// 9 = "pierce"
+// 10 = "insight"
+// 11 = "stun"
+// 12 = "focus"
+// 13 = "K.O."
+
+//---- Attack descriptions:
+14 = "guaranteed miss" // unused
+// 15 = "(connect) reroll one die from your opponent this turn"
+// 16 = "(connect) enemy speed is 0 next turn"
+// 17 = "(connect) 1 damage, -1 to all enemy dice for one turn"
+// 18 = "(buff) gain 2 accuracy next turn "
+// 19 = "(connect) 1 damage, discard one die"
+// 20 = "(buff) gain 2 attack and 2 accuracy next turn"
+// 21 = "(connect) 2 damage"
+
+//---- Area names:【ONLYかな】
+21 = "Julesvale"
+22 = "Badger Co. Mines"
+23 = "Underground Oasis"
+24 = "Lava Tubes"
+25 = "Mineral Deposits"	
+26 = "Julesvale Crypts"
+27 = "Corrupted Crypts"
+
+//--- Map UI:
+28 = "Floor `1" // eg. "Floor 2" (going deeper underground)
+29 = "Explored `1" // eg. "Explored 35%"
+
+//---- Building names:
+30 = "inn"
+31 = "bank"
+32 = "witch"
+33 = "shop"
+34 = "blacksmith"
+35 = "mineshaft"
+
+//---- Building descriptions:
+36 = "restore [c_STA][spr_icon_sta_sm]STA[/c] and [spr_icon_hp_sm]HP" // inn
+37 = "store your items between Dungeon runs" // bank
+38 = "purchase [c_aether][spr_icon_amsidian_sm]Amsidian[/c]" // witch
+39 = "purchase equipment and supplies" // shop
+40 = "upgrade your base stats" // blacksmith
+41 = "delve deep into the Dungeons" // mineshaft
+
+//---- Building upgrade info:
+42 = "+2 recovered [c_STA][spr_icon_sta_sm]STA[/c]" // inn lvl. 2
+43 = "+2 recovered [c_STA][spr_icon_sta_sm]STA[/c]" // inn lvl. 3
+44 = "+2 storage slots" // bank lvl. 2
+45 = "+2 storage slots" // bank lvl. 3
+46 = "reduce orbs cost" // witch lvl. 2
+47 = "reduce orbs cost" // witch lvl. 3
+48 = "+1 item for sale, improve stock items quality" // shop lvl. 2
+49 = "+1 item for sale, improve stock items quality" // shop lvl. 3
+50 = "+1 stat point upgrade" // blacksmith lvl. 2
+51 = "+1 stat point upgrade" // blacksmith lvl. 3
+
+//---- Upgrade info:
+3600 = "LV."
+3601 = "upgrade to lv."
+3602 = "max lv."
+3603 = "max upgrade reached!"
+3604 = "required" // amsidian required
+
+//---- Bunker words:
+52 = "rat"
+53 = "snake"
+54 = "boar"
+55 = "wolf"
+56 = "cat"
+57 = "fish"
+
+//---- Quest names:
+60 = "[NO QUEST]"
+61 = "Blueprints!"
+62 = "Kohler!"
+63 = "Slade"
+64 = "Hamir"
+65 = "Artemis"
+66 = "Slade 2"
+67 = "Hamir 2"
+68 = "Artemis 2"
+69 = "Fleet 2"
+70 = "To the Depths"
+71 = "The Team"
+72 = "The Necromancer"
+
+//---- Quest descriptions:
+75 = "You don't have an active quest right now."
+76 = "I've got to find and retrieve Ayala's [c_blue][spr_feather_sm,0]blueprints[/c] from Badger Co. in the [c_yellow][spr_quest_location,0]Mines[/c]. "
+77 = "Ayala says Foreman Kohler's testing site is at the bottom of the [c_yellow][spr_quest_location,0]Mines[/c]. I gotta find him and take him down!"
+78 = "The old man says there's some [c_blue][spr_feather_sm,0]Shard[/c] hidden in the [c_yellow][spr_quest_location,0]Underground Oasis[/c]. I need to find it."
+7078 = "I've found the [c_blue][spr_feather_sm,0]Drop![/c] ...but what good would it do with that bag of bones? Why not line my pockets some more, huh?"
+79 = "I have to prove Olympia wrong. The [c_yellow][spr_quest_location,0]Mineral Deposits[/c] house the relic I seek."
+7079 = "Enough humility on my part. With this [c_blue][spr_feather_sm,0]Shield of Courage[/c], I'll show the Wall Runners - EVERYONE - what I'm capable of!"
+80 = "I seek a power to replace the Rite of Fire... Randall says it can be found on the bottom of the [c_yellow][spr_quest_location,0]Lava Tubes[/c]!"
+7080 = "The [c_blue][spr_feather_sm,0]Ember of Destruction[/c] now belongs to the Flame Imperium! Or perhaps... it belongs to its next empress..."
+81 = "I want a bigger cut of amsidian. The [c_yellow][spr_quest_location,0]Mineral Deposits[/c] are known to contain more of it."
+7081 = "I helped cure that beast back in the [c_yellow][spr_quest_location,0]Deposits[/c]... but got my shard stolen in the process by that bumbling thief!"
+82 = "I...cannot doubt myself. Randall said the [c_yellow][spr_quest_location,0]Lava Tubes[/c] is where Olympia resides - with the [c_blue][spr_feather_sm,0]Breath of Life[/c]."
+7082 = "The [c_blue][spr_feather_sm,0]Shield[/c] was stolen by that orange fox! Still, I managed to get Olympia out from the [c_yellow][spr_quest_location,0]Lava Tubes[/C]..."
+83 = "I've got to ensure the power of the [c_blue][spr_feather_sm,0]Ember of Destruction[/c] and burn [c_yellow][spr_quest_location,0]Underground Oasis[/c] to ashes!"
+7083 = "That pathetic excuse of a warrior stole the [c_blue][spr_feather_sm,0]Ember of Destruction[/c]! Who does she think she is?!"
+84 = "The [c_yellow][spr_quest_location,0]Mines[/c] are still not a safe place with Badger. Co's presence. I need to fix that!"
+85 = "Badger Co.'s villany stops here! Randall says I have to follow him to the bottom of the [c_yellow][spr_quest_location,0]Crypts[/c] to end this..."
+86 = "I must find help to fight that Necromancer! Ayala says everyone has evacuated to the [c_yellow][spr_quest_location,0]Mines[/c]..."
+87 = "We've got to stop the Necromancer from performing his dark ritual down in the [c_yellow][spr_quest_location,0]Crypts[/c]!"
+
+//---- Buttons:
+90 = "off"
+91 = "on"
+92 = "fullscreen"
+93 = "window scale" // 1x, 2x, 3x
+94 = "stat info tooltips" // unused
+95 = "pause between strikes" // unused
+96 = "story" // difficulty option (easy)
+97 = "advanced"
+98 = "hard"
+2000 = "can be changed later!" // for difficulty option
+2001 = "Recommended for players who want to focus on the [c_yellow]story[/c]. Characters have higher stats, and enemies never use advanced abilities."
+2002 = "Recommended for [c_yellow]experienced[/c] players in strategy games. Enemies have advanced AI and abilities."
+2003 = "Recommended for players looking for a [c_yellow]challenge[/c]. Enemies have higher stats as well as advanced AI and abilities."
+//
+100 = "skip" // BTN_CONTINUE
+101 = "to town" // BTN_RESTART
+102 = "story mode" // BTN_STORY_MODE
+103 = "challenge dungeons" // BTN_DUNGEON
+104 = "options" // BTN_OPTIONS
+105 = "quit" // BTN_QUIT
+106 = "resume" // BTN_RESUME
+107 = "@105" // "quit" BTN_TO_MENU
+108 = "new game" // BTN_SAVE_SLOT
+109 = "back" // BTN_BACK
+110 = "music" // BTN_MUSIC // music vol
+111 = "sfx" // BTN_SFX // sfx vol
+112 = "" // BTN_FULLSCREEN
+113 = "@112" // BTN_WINDOW_SCALE
+114 = "reroll" // BTN_NEW_DRAFT
+115 = "⭙" // BTN_DELETE_SAVE
+116 = "leave" // BTN_TO_MAP
+117 = "                       " // BTN_STAT_INFO
+118 = "@112" // BTN_INFO_SETTING
+119 = "@112" // BTN_PAUSE_SETTING
+120 = "☰" // BTN_HAMBURGER
+121 = "   " // BTN_ESC
+122 = "ok" // BTN_FLOAT
+123 = "@100" // "skip" BTN_MINER
+124 = "try" // BTN_BUNKER
+125 = "@100" // "skip" BTN_BUNKER_SKIP
+126 = "yes" // BTN_MINESHAFT_YES
+127 = "no" // BTN_MINESHAFT_NO
+128 = "leave" // BTN_FORFEIT
+129 = "@109" // "back" BTN_LEAVE_BUILDING
+130 = "@112" // BTN_SHOP_SCROLL
+131 = "                      " // BTN_SHOP_OUTLINE
+132 = "    upgrade" // BTN_UPGRADE
+133 = "continue" // BTN_DIALOG_NEXT
+134 = "   " // BTN_QUEST
+135 = "@100" // "skip" BTN_ALTAR
+136 = "@100" // "skip" BTN_ARCHMAGE
+137 = "@127" // "no" BTN_ELEVATOR_NO
+138 = "@126" // "yes" BTN_ELEVATOR_YES
+139 = "leaderboards" // BTN_LEADERBOARDS
+140 = "done" // BTN_RELOCATE
+141 = "to town" // BTN_TO_TOWN
+142 = "@126" // "yes" BTN_TO_TOWN_YES
+143 = "@127" // "no" BTN_TO_TOWN_NO
+144 = "@112" // BTN_QUEST_START
+145 = "enter" // BTN_RUN_START
+146 = "@127" // "no" BTN_FISHING_NO
+147 = "@126" // "yes" BTN_FISHING_YES
+148 = "@100" // "skip" BTN_CLAM
+149 = "@100" // "skip" BTN_TRAVELLER
+150 = "@100" // "skip" BTN_GEOLOGIST
+151 = "@100" // "skip" BTN_CRYSTAL
+152 = "@100" // "skip" BTN_SKIP
+153 = "skip tutorial" // BTN_SKIP_TUTORIAL
+154 = "@112" // BTN_CHAR
+155 = "   " // BTN_CAMERA
+156 = "difficulty" // BTN_DIFFICULTY
+157 = "start" // BTN_START
+158 = "JOURNAL" // BTN_JOURNAL
+159 = "CURRENT QUEST" // BTN_CURRENT_QUEST
+160 = "JOURNAL ENTRY #`1" // BTN_JOURNAL_ENTRY
+161 = "@133" // "continue" BTN_TUTORIAL_NEXT
+162 = "@133" // "continue" BTN_CLOSE_UNLOCK
+163 = "@126" // "yes" BTN_UPGRADE_YES
+164 = "@127" // "no" BTN_UPGRADE_NO
+165 = "swap" // BTN_CHARACTER_SWAP
+166 = "@112" // BTN_PAUSE_OPTIONS
+167 = "@109" // "back" BTN_PAUSE_BACK
+168 = "@112" // BTN_PAUSE_LEFT
+169 = "@112" // BTN_PAUSE_RIGHT
+170 = "COLOR SCHEME" // BTN_COLORBLIND
+171 = "@112" // BTN_MASTER_VOL
+172 = "really delete?" // BTN_DELETE_SAVE_REAL // confirmation to delete savegame
+173 = "   " // BTN_MAP
+174 = "close" // BTN_JOURNAL_CLOSE    
+175 = "@126" // "yes" BTN_TO_MENU_YES
+176 = "@126" // "yes" BTN_TO_ELEVATOR_YES
+177 = "@127" // "no" BTN_TO_ELEVATOR_NO
+178 = "loot all" // BTN_LOOT_ALL
+179 = "   " // BTN_SKIP_DIALOG
+180 = "@122" // "ok" BTN_BUNKER_FAIL
+181 = "credits" // BTN_CREDITS
+182 = "chapter" // BTN_CHAPTER // chapter selection (eg "chapter 1")
+183 = "@100" // BTN_GREED_SKIP
+184 = "to menu" // BTN_DUNGEON_QUIT
+185 = "         " // BTN_KEY
+186 = "READY" // BTN_VORACITY_WARN
+187 = "USE GOLD" // BNT_LT_FOOT_COINS
+188 = "@100" // BNT_LT_FOOT_SKIP
+189 = "AUTOSAVE" // BNT_AUTOSAVE
+190 = "CHARACTER" // BTN_CHARACTER
+191 = "ENEMY" // BTN_ENEMY
+192 = "START FIGHT" // BTN_FIGHT_START // unused
+193 = "FLEET SHARD" // BTN_FLEET_SHARD // unused
+194 = "@126" // "yes" BTN_RESET_YES
+494 = "@127" // "no" BTN_RESET_NO
+495 = "@126" // "yes" BTN_DESCEND_YES
+496 = "@127" // "no" BTN_DESCEND_NO
+497 = "    RESET" // BTN_RESET_SMITH
+498 = "@126" // "yes" BTN_RESET_SMITH_YES
+499 = "@127" // "no" BTN_RESET_SMITH_NO
+2007 = "@126" // "yes" BTN_UPGRADE_SLADE_YES
+2008 = "@127" // "no" BTN_UPGRADE_SLADE_NO
+2009 = "CONTINUE RUN" // BTN_CHALLENGE_LOAD
+2010 = "@133" // BTN_ACC_TUTORIAL_NEXT
+2012 = "@126" // "yes" BTN_NEW_RUN_YES
+2013 = "@127" // "no" BTN_NEW_RUN_NO
+2014 = "   " // BTN_LOG
+2018 = "   " // BTN_NEW_GAME_PLUS
+2019 = "New Game+"
+2020 = "Go to any chapter, keeping your items and town upgrades!"
+196 = "RETRY THIS FLOOR" // BTN_LOAD_CHECKPOINT
+
+
+//-------- #REGION ITEMS【ONLYかな】
+
+//---- Gems:
+200 = "gem of poison"
+201 = "[c_pink][spr_icon_connect_sm]Connect[/c] causes double [spr_icon_hp_sm]DMG but you receive double [spr_icon_hp_sm]DMG"
+//
+202 = "gem of frost"
+203 = "freezes all [spr_icon_die_0_sm]dice still to be picked and ends the draft"
+//
+204 = "gem of lightning"
+205 = "-1 to opponent's [c_STA][spr_icon_die_0_sm]STA dice[/c]"
+//
+206 = "gem of wind"
+207 = "automatically discards all opponent's [spr_icon_die_1_sm]1 dice"
+//
+208 = "gem of thorns"
+209 = "[c_ACC][spr_icon_acc_sm]ACC[/c] dice can be used as [c_STA][spr_icon_sta_sm]STA[/c] dice"
+//
+210 = "gem of growth"
+211 = "grants a random\n[c_STA][spr_icon_die_0_sm]STA[/c] die at the start of each turn"
+//
+212 = "gem of embers"
+213 = "changes the highest value die on the draft to [c_ATK][spr_icon_atk_sm]ATK[/c] type"
+//
+214 = "gem of smoke"
+215 = "opponent can't draft [c_STA][spr_icon_die_0_sm]STA[/c] dice"
+//
+216 = "gem"
+217 = "[c_dk_pink](you have no gem equipped)"
+
+//---- Food:
+220 = "apple"
+221 = "grants [c_STA]3 [spr_icon_sta_sm]STA[/c]"
+//
+222 = "meat"
+223 = "grants [c_STA]6 [spr_icon_sta_sm]STA[/c]"
+//
+224 = "peach"
+225 = "grants [c_STA]2 [spr_icon_sta_sm]STA[/c]"
+//
+226 = "cheese"
+227 = "grants [c_STA]4 [spr_icon_sta_sm]STA[/c]"
+//
+228 = "fish"
+229 = "grants [c_STA]3 [spr_icon_sta_sm]STA[/c]"
+
+//---- Potions:
+240 = "potion of attack"
+241 = "grants one [c_ATK][spr_icon_die_3_sm]3 ATK[/c] die"
+//
+242 = "potion of defense"
+243 = "grants one [c_DEF][spr_icon_die_3_sm]3 DEF[/c] die"
+//
+244 = "potion of accuracy"
+245 = "grants one [c_ACC][spr_icon_die_3_sm]3 ACC[/c] die"
+//
+246 = "potion of speed"
+247 = "grants one [c_SPD][spr_icon_die_3_sm]3 SPD[/c] die"
+//
+248 = "potion of might"
+249 = "grants one [c_STA][spr_icon_die_3_sm]3 STA[/c] die"
+//
+250 = "potion of life"
+251 = "recovers 2 [spr_icon_hp_sm]HP"
+//
+252 = "gr. potion of attack"
+253 = "grants one [c_ATK][spr_icon_die_6_sm]6 ATK[/c] die"
+//
+254 = "gr. potion of defense"
+255 = "grants one [c_DEF][spr_icon_die_6_sm]6 DEF[/c] die"
+//
+256 = "gr. potion of accuracy"
+257 = "grants one [c_ACC][spr_icon_die_6_sm]6 ACC[/c] die"
+//
+258 = "gr. potion of speed"
+259 = "grants one [c_SPD][spr_icon_die_6_sm]6 SPD[/c] die"
+//
+260 = "gr. potion of might"
+261 = "grants one [c_STA][spr_icon_die_6_sm]6 STA[/c] die"
+
+
+//---- Rings: // This section is unused
+280 = "ring"
+281 = "pretty but useless by itself"
+//
+282 = "ruby"
+283 = "[c_grey]With[/c] [c_white]ring[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_ATK][spr_icon_atk_sm]ATK[/c]"
+//
+284 = "diamond"
+285 = "[c_grey]With[/c] [c_white]ring[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_DEF][spr_icon_def_sm]DEF[/c]"
+//
+286 = "emerald"
+287 = "[c_grey]With[/c] [c_white]ring[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_ACC][spr_icon_acc_sm]ACC[/c]"
+//
+288 = "sapphire"
+289 = "[c_grey]With[/c] [c_white]ring[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_SPD][spr_icon_spd_sm]SPD[/c]"
+//
+290 = "ruby holder"
+291 = "[c_grey]With[/c] [c_white]ring[/c] [c_gray]and [/c] [c_white]ruby[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_ATK][spr_icon_atk_sm]ATK[/c]"
+//
+292 = "diamond holder"
+293 = "[c_grey]With[/c] [c_white]ring[/c] [c_gray]and [/c] [c_white]diamond[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_DEF][spr_icon_def_sm]DEF[/c]"
+//
+294 = "emerald holder"
+295 = "[c_grey]With[/c] [c_white]ring[/c] [c_gray]and [/c] [c_white]emerald[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_ACC][spr_icon_acc_sm]ACC[/c]"
+//
+296 = "sapphire holder"
+297 = "[c_grey]With[/c] [c_white]ring[/c] [c_gray]and [/c] [c_white]sapphire[/c] [c_grey]equipped:[/c]\n[c_grey][spr_icon_bullet_sm] +1 [c_SPD][spr_icon_spd_sm]SPD[/c]"
+
+//---- Scrolls:
+300 = "scroll of dodge"
+301 = "if your [c_SPD][spr_icon_spd_sm]SPD[/c] is equal or higher than your opponent's, you'll avoid their attack during this turn"
+//
+302 = "scroll of haste"
+303 = "simultaneously pick your whole draft"
+//
+304 = "scroll of courage"
+305 = "all your dice become [c_STA][spr_icon_die_0_sm]STA[/c] dice"
+//
+306 = "scroll of endurance"
+307 = "keep 1 of your [spr_icon_die_0_sm]dice until next turn"
+//
+308 = "scroll of nothing"
+309 = ""
+//
+310 = "scroll of fury"
+311 = "all your dice are set to [spr_icon_die_6_sm]6"
+//
+312 = "scroll of equality"
+313 = "opponent's dice are set to [spr_icon_die_3_sm]3"
+//
+314 = "scroll of discord"
+315 = "relocate all your opponent's [spr_icon_die_0_sm]dice"
+//
+316 = "scroll of reprisal"
+317 = "your [c_ATK][spr_icon_atk_sm]ATK[/c] is equal to your [c_DEF][spr_icon_def_sm]DEF[/c] during this turn"
+
+//--- Other items:
+340 = "shuriken"
+341 = "discard an opponent's [spr_icon_die_0_sm]die"
+//
+342 = "bomb"
+343 = "defeat the opponent, but receive 1 [spr_icon_hp_sm]DMG [c_dk_pink](can't be used against bosses)"
+//
+344 = "amsidian"
+345 = "grants [c_STA]10 [spr_icon_sta_sm]STA[/c] or can be exchanged for town upgrades"
+//
+346 = "coins"
+347 = ""
+//
+348 = "item wanted"
+349 = ""
+//
+350 = "bed for a night"
+351 = "grants [c_STA]% [spr_icon_sta_sm]STA[/c]"
+//
+352 = "forge"
+353 = "replace your gem with a random one"
+//
+354 = "repair"
+355 = "reset gem durability"
+//
+356 = "chain"
+357 = "[spr_mouse,0] on a ring to attach it to your gem"
+//
+358 = "heal"
+359 = ""
+//
+360 = "boomerang"
+361 = "steal opponent's [spr_icon_die_0_sm]die"
+//
+362 = "shopper's card"
+363 = "get lower prices at shops"
+//
+364 = "lockpick"
+365 = "opens any chest"
+//
+366 = "golden watch"
+367 = "useless in battle but valued at shops"
+//
+368 = "medal of valor"
+369 = "grants [c_STA]1 [spr_icon_sta_sm]STA[/c] for each defeated opponent"
+//
+370 = "shield"
+371 = "grants [c_STA]1 [spr_icon_sta_sm]STA[/c] when you discard a [spr_icon_die_0_sm]die from your opponent"
+//
+372 = "4-leaf clover"
+373 = "enemies and chests drop better loot"
+//
+374 = "magnet"
+375 = "enemies drop more [c_yellow][spr_icon_gold_sm]Gold[/c]"
+//
+376 = "pan"
+377 = "food items recover 1 [spr_icon_hp_sm]HP in addition to current effect [c_grey](once per battle)"
+//
+378 = "grindstone"
+379 = "restores gem's durability"
+//
+380 = "magic mirror"
+381 = "when you receive [spr_icon_hp_sm]DMG, reflect 1 [spr_icon_hp_sm]DMG to the opponent [c_grey](once per battle)"
+//
+382 = "bandanna of chance"
+383 = "pay [c_STA]2 [spr_icon_sta_sm]STA[/c] in exchange for a random [c_STA][spr_icon_die_0_sm]STA[/c] die"
+//
+384 = "armor"
+385 = "can't receive more than 1 [spr_icon_hp_sm]DMG per turn"
+//
+386 = "boots of dodge"
+387 = "pay [c_STA]1 [spr_icon_sta_sm]STA[/c] in exchange for ignoring opponent's next attack if you [c_pink][spr_icon_connect_lg]Connect[/c] first"
+//
+388 = "thief gloves"
+389 = "steal from Dungeon shops"
+//
+390 = "torch"
+391 = "see opponent's loot from the map"
+//
+392 = "golden goblet"
+393 = "useless in battle but greatly valued at shops"
+//
+394 = "smoke bomb"
+395 = "escape from the fight\n[c_dk_pink](can't be used against bosses)"
+//
+396 = "throwing knife"
+397 = "inflicts 1 [spr_icon_hp_sm]DMG to the opponent [c_grey](only once per battle)"
+//
+398 = "phoenix feather"
+399 = "prevents lethal [spr_icon_hp_sm]DMG once, then breaks"
+//
+400 = "elixir of attack"
+401 = "[c_ATK][spr_icon_atk_sm]ATK[/c] x2 during the turn"
+//
+402 = "elixir of defense"
+403 = "[c_DEF][spr_icon_def_sm]DEF[/c] x2 during the turn"
+//
+404 = "elixir of accuracy"
+405 = "[c_ACC][spr_icon_acc_sm]ACC[/c] x2 during the turn"
+//
+406 = "elixir of speed"
+407 = "[c_SPD][spr_icon_spd_sm]SPD[/c] x2 during the turn"
+//
+408 = "potion of chaos"
+409 = "grants three random [spr_icon_die_0_sm][spr_icon_die_0_sm][spr_icon_die_0_sm] dice"
+//
+410 = "potion of rage"
+411 = "grants three [c_STA][spr_icon_die_1_sm][spr_icon_die_1_sm][spr_icon_die_1_sm]1 STA[/c] dice"
+//
+412 = "bandage"
+413 = "recover all your [spr_icon_hp_sm]HP [c_grey](only once per battle)"
+//
+414 = "pearl"
+415 = "it seeks home..."
+//
+416 = "boot"
+417 = " "
+//
+418 = "geode"
+419 = "maybe someone can break it?"
+//
+420 = "key"
+421 = " "
+//
+430 = "bottle"
+431 = " "
+//
+432 = "bottle of water%"
+433 = "grants one [c_STA][spr_icon_die_1_sm]1 STA[/c] die"
+//
+446 = "detonator"
+447 = " "
+//
+448 = "key "
+449 = " "
+//
+450 = "grappling hook"
+451 = " "
+//
+452 = "spike shield"
+453 = "grants one [c_ATK][spr_icon_die_5_sm]6 ATK[/c] die on the next turn after receiving [spr_icon_hp_sm]DMG"
+//
+454 = "winged boots"
+455 = "grants one [c_SPD][spr_icon_die_2_sm]2 SPD[/c] die on the next turn after blocking or dodging"
+//
+456 = "wizard hat"
+457 = "grants one [c_STA][spr_icon_die_2_sm]2 STA[/c] die if [c_STA][spr_icon_sta_sm]STA[/c] is equal or lower than 2 at the start of the turn"
+//
+458 = "pirate hook"
+459 = "grants [c_yellow]5 [spr_icon_gold_sm]Gold[/c] after blocking or dodging"
+//
+460 = "earthen earrings"
+461 = "grants one [c_STA][spr_icon_die_2_sm]2 STA[/c] die if you have 2 or more [c_STA][spr_icon_die_0_sm]STA[/c] dice at the start of the turn"
+//
+462 = "bracelet of power"
+463 = "instantly grants [c_STA]2 [spr_icon_sta_sm]STA[/c] after [c_pink][spr_icon_connect_sm]Connecting[/c] a [c_ACC][spr_icon_acc_sm]7 ACC[/c] ability"
+//
+464 = "lightning bracelet"
+465 = "discards opponent's random [spr_icon_die_0_sm]die upon dodge or block"
+//
+466 = "ring of attack"
+467 = "grants one [c_ATK][spr_icon_die_2_sm]2 ATK[/c] die on the next turn after [c_pink][spr_icon_connect_sm]Connecting[/c]"
+//
+468 = "monocle"
+469 = "grants one [c_ACC][spr_icon_die_2_sm]2 ACC[/c] die on the next turn after using a [c_tech][spr_icon_tech_sm]Technique[/c]"
+//
+470 = "cursed mask"
+471 = "grants one [c_ACC][spr_icon_die_4_sm]4 ACC[/c] die and one [c_STA][spr_icon_die_1_sm]1 STA[/c] die at the start of the turn if [spr_icon_hp_sm]HP is equal to 1"
+//
+472 = "hungry skull"
+473 = "grants [c_STA]2 [spr_icon_sta_sm]STA[/c] after dropping any item"
+//
+474 = "energy orb"
+475 = "grants +1 to all non-drafted [c_STA][spr_icon_die_0_sm]STA[/c] dice"
+//
+476 = "brass knuckles"
+477 = "grants one [c_ATK][spr_icon_die_2_sm]2 ATK[/c] die at the start of the next turn after discarding an opponent's die"
+//
+478 = "goggles of focus"
+479 = "grants one [c_ATK][spr_icon_die_2_sm]2 ATK[/c] die and a [c_ACC][spr_icon_die_2_sm]2 ACC[/c] die at the start of the battle"
+//
+480 = "crab's claw"
+481 = "if the opponent used [c_STA][spr_icon_sta_sm]STA[/c] this turn, grants 2 [c_STA][spr_icon_sta_sm]STA[/c] at the start of the next turn"
+//
+482 = "amulet of protection"
+483 = "grants one [c_STA][spr_icon_die_2_sm]2 STA[/c] dice at the start of the next turn after getting any stat decreased"
+//
+484 = "chef apron"
+485 = "grants 1 extra [c_STA][spr_icon_sta_sm]STA[/c] after using a food item [c_grey](once per turn)"
+//
+486 = "armour"
+487 = "grants +1 [spr_icon_hp_sm]HP, breaks on receiving [spr_icon_hp_sm]DMG"
+//
+488 = "viking helm"
+489 = "grants one [c_STA][spr_icon_die_2_sm]2 STA[/c] die at the start of the next turn after [c_pink][spr_icon_connect_sm]Connecting[/c] and reducing opponent's [spr_icon_hp_sm]HP to 1"
+//
+490 = "soul charm"
+491 = "grants one [c_SPD][spr_icon_die_3_sm]3 SPD[/c] die and one [c_DEF][spr_icon_die_3_sm]3 DEF[/c] die at the start of the next turn after getting damaged if your [spr_icon_hp_sm]HP is 1"
+//
+492 = "GIVE ITEM"
+493 = "to prevent the opponent from gaining dice"
+
+//
+500 = "arrows"
+501 = "cloak"
+502 = "fletching"
+//
+503 = "maul"
+504 = "scales"
+505 = "handle"
+//
+506 = "sabre"
+507 = "amulet"
+508 = "tail"
+//
+509 = "axe"
+510 = "platemail"
+511 = "padding"
+//
+512 = "+1 base [c_ATK][spr_icon_atk_sm]ATK[/c]"
+513 = "+1 base [c_DEF][spr_icon_def_sm]DEF[/c]"
+514 = "+1 base [c_SPD][spr_icon_spd_sm]SPD[/c]"
+
+//---- Highlighted substrings: These phrases will be colored when found within item names. The "%" character is used to avoid false matches and will not show up ingame. (Example: In "potion of might", the phrase " might" will be highlighted.)
+515 = " might" //potion of might, etc.
+516 = " rage"
+517 = " chaos"
+518 = " water%"
+519 = "golden " //golden watch, golden goblet
+520 = " poison"
+521 = " frost"
+522 = " lightning"
+523 = " wind"
+524 = " thorns"
+525 = " growth"
+526 = " embers"
+527 = " smoke"
+//----
+528 = "QUEST COMPLETE"
+
+//-------- #ENDREGION ITEMS【ONLYかな】
+
+//---- Area names (Kanji version):
+681 = "@21" //"Julesvale"
+682 = "@22" //"Badger Co. Mines"
+683 = "@23" //"Underground Oasis"
+684 = "@24" //"Lava Tubes"
+685 = "@25" //"Mineral Deposits"	
+686 = "@26" //"Julesvale Crypts"
+687 = "@27" //"Corrupted Crypts"
+
+//---- Player/Enemy names (from var _names):
+700 = "Fleet"
+701 = "Slade"
+702 = "Artemis"
+703 = "Hamir"
+704 = "Training Dummy"
+705 = "Thief"
+706 = "Bandit"
+707 = "Miner" 
+708 = "Oasis Lurker"
+709 = "Oasis Digger"
+710 = "Charclaw"
+711 = "Lava Digger"
+712 = "Topaz Stinger"
+713 = "Mineral Digger"
+714 = "Skeleton"
+715 = "Graverobber"
+716 = "Foreman Kohler"
+717 = "The Necromancer"
+718 = "Avarum" //greed
+719 = "Corrupted Thief"
+720 = "Corrupted Bandit"
+721 = "Corrupted Miner" // "Corrupted Robber"
+722 = "Corrupted Oasis Digger"
+723 = "Corrupted Lava Digger"
+724 = "Corrupted Mineral Digger"
+725 = "Locked Chest"
+
+//---- Weapon tags: // This section is unused
+800 = "broken"
+801 = "common"
+802 = "legendary"
+803 = "sharp"
+804 = "sturdy"
+805 = "precise"
+806 = "quick"
+807 = "heavy"
+808 = "light"
+809 = "durable"
+810 = "blunt"
+811 = "harsh"
+812 = "excellent"
+813 = "balanced"
+
+//---- Shortened item names:
+850 = "clover"
+851 = "card" // shopper's card
+852 = "gr. potion" 
+853 = "gr. ring"
+854 = "watch" // golden watch
+855 = "gloves" // thief gloves
+856 = "goblet" // golden goblet
+857 = "feather" // phoenix feather
+858 = "bottle" // empty bottle
+859 = "bomb" // smoke bomb
+860 = "knife" // throwing knife
+861 = "shield" // spike shield
+862 = "boots" // winged boots
+863 = "hat" // wizard hat
+864 = "hook" // pirate hook
+865 = "earrings" // earthen earrings
+866 = "knuckles" // brass knuckles
+867 = "ring" // ring of attack
+868 = "mask" // cursed mask
+869 = "skull" // hungry skull
+870 = "orb" // energy orb
+871 = "claw" // crab's claw
+872 = "mirror" // magic mirror
+873 = "apron" // chef apron
+874 = "helm" // viking helm
+
+//---- Character Names:
+880 = "Ayala"
+881 = "@700" // "Fleet"
+882 = "Innkeeper"
+883 = "Merchant"
+884 = "Kohler"
+885 = "Randall"
+886 = "@701" // "Slade"
+887 = "@703" // "Hamir"
+888 = "@702" // "Artemis"
+889 = "Olympia"
+890 = "Smith"
+891 = "Banker"
+892 = "Witch"
+893 = "@717" // "Necromancer"
+894 = "Avarum"
+895 = "???"
+896 = "Digger"
+
+//---- Speech bubbles:
+900 = "Care to purchase anything?" // store greeting
+901 = "I can now relocate my opponent's dice!" // scroll of reprisal
+902 = "Do you really want to reset purchased buffs? [spr_icon_gold_sm]Gold won't be refunded." // resetting Blacksmith buffs
+903 = "I would pay a fortune for\nsome food!" // starving miner
+904 = "Gotta input the code..." // bunker
+905 = "Want to descend to floor `1?" // mineshaft
+906 = "I should make an offering..." // altar
+907 = "I can copy any of my items..." // archmage
+908 = "Return to the surface? You can resume from here later." // elevator
+909 = "I must choose a die to keep!" // scroll of endurance
+910 = "[spr_icon_def_sm]DEF dice are more valuable here!" // trying to pick a wrong die during tutorial 
+911 = "I need to increase [spr_icon_acc_sm]ACC first!" // trying to attack without buffing accuracy during tutorial
+912 = "I've got to perform `1!" // selecting wrong attack type during tutorial
+913 = "I don't have enough [spr_icon_acc_sm]ACC!" // not enough accuracy for selected attack
+914 = "That won't work!" // trying to K.O. a boss
+915 = "They are already `1!" // targeting a wounded body part
+916 = "I can discard!" // can discard a die
+917 = "I can steal a die!"
+918 = "I can reroll!"
+919 = "I need to draft dice!"
+920 = "" // unused
+921 = "I can't believe it's open!..." // bunker open
+922 = "Bless you, traveler!" // giving food to the starving miner
+923 = "I can discard my opponent's die..."
+924 = "I can reroll my opponent' dice..."
+925 = "    *paused*    " // pause between strikes
+926 = "You need that rest, friend!" // first innkeeper greeting
+927 = "Slept well, huh?" // innkeeper after a night in the inn
+928 = "High time to grab something!" // first merchant greeting
+929 = "Should I try to fish here?" // fishing tile
+930 = "I think I caught something..." // sucessful fishing 
+931 = "It's opening up a little..." // giant clam
+932 = "Oh, it seems to be rewarding me!" // giant clam reward
+933 = "I'm dying of thirst!" // thirsty traveller
+934 = "I'm looking for geodes..." // geologist
+935 = "This thing was inside!" // geologist reward
+936 = "There is something inside the crystal!" // crystal bridge
+937 = "I need `1 less consumable`2 to step here." // can't access crystal bridge
+938 = "I shouldn't attack yet..." // trying to attack on the second phase of tutorial
+939 = "This opponent has passive abilities which are shown as icons above their [spr_icon_hp_sm]HP."
+940 = "I can press [spr_mouse,0] to move to a room,\nhold [spr_mouse,1] to look around and press TAB to toggle auto-mode."
+941 = "I must choose an item...!" // Greed fight
+942 = "Wait, I have some amsidian which can be used for town upgrades!" // leaving the Town with amsidian
+943 = "I must increase my [spr_icon_atk_sm]ATK first!" // trying to use an attack that won't connect in tutorial
+944 = "[spr_icon_atk_sm]ATK dice are more valuable here!" // trying to pick a wrong die during tutorial ("Hmmm, [c_ATK][spr_icon_atk_sm]ATK[/c] dice seem like a better first pick!")
+945 = "There's a better ability to use here..." // trying to pick a wrong move during tutorial
+946 = "Something tells me I'm gonna need this later..." // trying to eat peach early during tutorial
+947 = "Hey, I wanna know what's inside this chest!" // trying to leave the first chest
+948 = "I can open more locks before rerolling!" // rerolling early during chest tutorial "I'm sure I can bust more locks with the current draft!"
+949 = "This die's value won't be enough!" // drafting wrong dice during chest tutorial ("This die's value won't be enough - I'd better pick another one...")
+950 = "This die won't help - let's reroll it!" // drafting wrong dice during chest tutorial
+951 = "This orb presents you an interesting choice. You can either upgrade any building by entering it and handing [c_aether][spr_icon_amsidian_sm]Amsidian[/c] over to the owner, or consume it yourself to gain [c_STA][spr_icon_sta_sm]STA[/c]." // amsidian tutorial
+952 = "Do you really want to upgrade this building?"
+953 = "Max upgrade reached!"
+954 = "This character has a special ability, which is indicated by this [spr_status,%] icon"
+955 = "This value is too low. I better save it for a reroll"
+956 = "This will only grant me a +1. I better save it for a reroll"
+957 = "My gem just broke!"
+958 = "- Quest in Progress -\n\nGo back to the elevator checkpoint?\n"
+959 = "I need this item!" // ("I don't see any reason to leave this behind!")
+960 = "Oops! This lock won't open anymore..." // wrong bunker code 3 times in a row
+961 = "Nope, but I still have ONE attempt left..." // wrong bunker code 2 times in a row
+962 = "Nope, but I still have TWO attempts left..." // wrong bunker code
+963 = "I must pick an item or give them one..." // Greed's trading has not finished
+1012 = "Proceed to the next floor?"
+2006 = "Really upgrade Slade? Next quest features Hamir."
+2011 = "Really start a new run? Your existing save data will be deleted."
+
+964 = "This is my chance to prove I'm Julesvale's hero!" //Greed's battle on auto-swap Fleet
+965 = "I'll show you what a Wall Runner can do." //Greed's battle on auto-swap Hamir
+966 = "We need to defeat this abomination... and loot its riches!" //Greed's battle on auto-swap Slade
+967 = "For the Fire Empire!" //Greed's battle on auto-swap Artemis
+
+968 = "I can copy it for `1." // Archmage
+969 = "The item has transformed!" // item exchanged on the Altar
+1010 = "- Quest in Progress -\n\n\n\nReally restart the quest?"
+
+998 = "TNT"
+999 = "HOOK"
+1000 = "Let's equip this new gem!"
+1001 = "NEED `1"
+1002 = "USE `1"
+1003 = "KEY"
+
+// Inn
+970 = "Need a room for the night?" //normal welcome
+971 = "I'll upgrade the beds. Are you sure?" //upgrade prompt
+972 = "Oooh, new paint!" //upgrade thanks
+973 = "Sleep tight..." //corruption thanks
+974 = "Only one room left!" //corrupt welcome
+// Bank
+975 = "Making a deposit?"
+976 = "There'll be more room in the safe. Are you sure?"
+977 = "A new branch!"
+978 = "Riches!"
+979 = "GREED...is GOOD!"
+// Witch
+980 = "What fortunes do you seek?"
+981 = "You'll be my new favorite customer. Are you sure?"
+982 = "I see a bright future!"
+983 = "POWER..."
+984 = "Dark clouds rumble..."
+// Shop
+985 = "I have wares from everywhere!"
+986 = "I'll stock better items. Are you sure?"
+987 = "A new supplier!"
+988 = "Yes... more!"
+989 = "No window shopping!"
+// Blacksmith
+990 = "Careful, you can only buy `1!" // one, two, or three
+991 = "I'll be able to forge better upgrades. Are you sure?"
+992 = "Haha, new anvil"
+993 = "Feel the heat!"
+994 = "Watch the hammer!"
+
+1011 = "Stored items will be saved between runs!"
+//
+1006 = "You need an upgrade to buff more stats."
+1007 = "one" // for Blacksmith tooltip
+1008 = "two"
+1009 = "three"
+
+// Ability warnings
+995 = "[c_yellow]Not enough [spr_icon_gold_sm]Gold![/c]"
+996 = "[c_yellow]Won't get [spr_icon_sta_sm]STA![/c]"
+997 = "[c_yellow]This won't connect![/c]"
+1004 = "[c_yellow]Not enough [spr_icon_gold_sm]Gold for extra [spr_icon_hp_sm]DMG![/c]"
+2004 = "[c_grey](max 3 times per battle)"
+2005 = "[c_grey](if [spr_icon_gold_sm]Gold is less than 20)"
+
+//-------- #REGION DIALOGS 【漢字OK】
+
+//---- Tutorial #1: >>TUTORIAL1 >>TUTORIAL_SPOILS
+1013 = "Lemme explain how a pro does this! Watch n' learn!"
+1014 = "I like to break a fight down into four stats:\n[c_ATK][spr_icon_atk_lg]Attack,[/c] [c_DEF][spr_icon_def_lg]Defense,[/c] [c_ACC][spr_icon_acc_lg]Accuracy[/c] and [c_SPD][spr_icon_spd_lg]Speed[/c]."
+1015 = "My stats are here on the left..."
+1016 = "...and I'm guessing the dummy's stats are like this, here on the right."
+1017 = "If my [c_ATK][spr_icon_atk_lg]ATK[/c] is higher than my opponent's [c_DEF][spr_icon_def_lg]DEF[/c], then I'll land the hit and maybe apply an effect!"
+1018 = "Side note: if my [c_DEF][spr_icon_def_lg]DEF[/c] equals or is higher than the enemy's [c_ATK][spr_icon_atk_lg]ATK[/c], I'll block them and be fine!"
+1019 = "Same goes for the opponent, though."
+1020 = "Now let's look what we can each do."
+1021 = "All my skills are on the left, and all the dummy's are on the right." //【ONLYかな】
+1022 = "Right now my [c_ATK][spr_icon_atk_lg]ATK[/c] is higher than my opponent's [c_DEF][spr_icon_def_lg]DEF[/c], so I'll land the hit."
+1023 = "These show how much [spr_icon_hp_sm]Damage (DMG) a character can take before fainting."
+1024 = "Lecture's over! Time to apply that knowledge!"
+1025 = "Pick the [c_pink][spr_icon_connect_sm]Strike[/c] ability to deal some [spr_icon_hp_sm]Damage." //【ONLYかな】
+1026 = "Thanks to my higher [c_DEF][spr_icon_def_lg]DEF[/c] I blocked my opponent's attack!"
+1027 = "Did you see how my [c_tech][spr_icon_tech_lg]Guard[/c] ability wasn't available?"
+1028 = "That's 'cause I didn't have enough [c_ACC][spr_icon_acc_lg]Accuracy[/c]."
+1029 = "So, the higher my [c_ACC][spr_icon_acc_lg]ACC[/c] is, the more options I have!"
+1030 = "Last but not least, let's talk about [c_SPD][spr_icon_spd_lg]Speed[/c]!"
+1031 = "Whoever has the most [c_SPD][spr_icon_spd_lg]SPD[/c] goes first."
+1032 = "This is crucial on effects that apply in the same turn!"
+1033 = "If I have the same [c_SPD][spr_icon_spd_lg]SPD[/c] as the opponent, I'll go first. Hero's initiative!"
+1034 = "Each turn starts with a dice draft."
+1035 = "Each die's color matches a stat color."
+1036 = "Place the [c_ATK][spr_icon_die_6_sm]6 ATK[/c] die to your [c_ATK][spr_icon_atk_sm]ATK[/c] slot." //【ONLYかな】
+1037 = "Yeah! Now I've got +6 added to my [c_ATK][spr_icon_atk_lg]ATK[/c]."
+1038 = "See that? The enemy took a die too. You've gotta be strategic in your picks!"
+1039 = "I can use any colored die to give +1 to any off-colored stat."
+1040 = "Move your\n[c_ATK][spr_icon_die_6_sm]6 ATK[/c] die down a slot to increase your [c_DEF][spr_icon_def_lg]DEF[/c] by 1." //【ONLYかな】
+1041 = "Nice! Even if it just +1 to my [c_DEF][spr_icon_def_lg]DEF[/c], that's enough to block my enemy's [c_ATK][spr_icon_atk_lg]ATK[/c]."
+1042 = "I should still outpace him with my higher [c_SPD][spr_icon_spd_lg]SPD[/c], but it doesn't hurt to be cautious!"
+1043 = "Oh! And any die with a value of 1 can only be used with their same color."
+1044 = "Now to pick the last dice and finish the draft..." //【ONLYかな】
+1045 = "Time to end this battle!"
+1046 = "Enemies drop loot when defeated! Take the items to continue." //【ONLYかな】
+
+//---- Tutorial #2 >>TUTORIAL2 >>TUTORIAL3 >>TUTORIAL4 >>TUTORIAL5
+5000 = "Hrm. I can't pierce his [c_DEF][spr_icon_def_lg]DEF[/c] with my current draft."
+5001 = "But I can still salvage this!"
+5002 = "I can use my [c_tech][spr_icon_tech_lg]Techniques[/c] to help myself now or in the future."
+5003 = "I don't even need to land a hit to make them work!"
+5004 = "I better brace and use my [c_tech][spr_icon_tech_lg]Guard[/c] this turn."
+5005 = "Use [c_tech][spr_icon_tech_sm]Guard[/c] to continue." //【ONLYかな】
+5006 = "[shake]UUUGH.[/shake] What's with these drafts? I don't have enough [c_ATK][spr_icon_atk_lg]ATK[/c]! Again!"
+5007 = "At least I have the extra [c_DEF][spr_icon_def_lg]DEF[/c] die thanks to the [c_tech][spr_icon_tech_lg]Technique[/c] I used last turn."
+5008 = "But even using my two [c_DEF][spr_icon_def_lg]DEF[/c] dice to increase my [c_ATK][spr_icon_atk_lg]ATK[/c], I won't beat his [c_DEF][spr_icon_def_lg]DEF[/c]."
+5009 = "[wave]Eureka![/wave] The [c_STA][spr_icon_sta_lg]Stamina[/c] I recovered at the tavern can boost ANY of my stats!"
+5010 = "Use your [c_STA][spr_icon_sta_sm]STA[/c] to grant +3 to your [c_ATK][spr_icon_atk_sm]ATK[/c] during this turn." //【ONLYかな】
+5011 = "Argh! Still not enough!" 
+5012 = "Wait! I still have the peach I won from the last battle."
+5013 = "Eat the peach to recover some more [c_STA][spr_icon_sta_sm]STA[/c]."
+5014 = "Now then - HAVE AT YOU!" 
+5015 = "Increase your [c_ATK][spr_icon_atk_sm]ATK[/c] by repositioning your dice and using your [c_STA][spr_icon_sta_sm]STA[/c], then connect with a [c_pink][spr_icon_connect_sm]Strike[/c]!" //【ONLYかな】
+5016 = "Whuh-oh. Their [c_ATK][spr_icon_atk_lg]ATK[/c] is more than my [c_DEF][spr_icon_def_lg]DEF[/c]."
+5017 = "I only have enough [c_ACC][spr_icon_acc_lg]ACC[/c] to do a [c_pink][spr_icon_connect_lg]Strike[/c]..."
+5018 = "...but my [c_SPD][spr_icon_spd_lg]SPD[/c] is higher, so I should be able to end this fight first!"
+5019 = "ACK! I forgot enemies can use their [c_STA][spr_icon_sta_lg]STA[/c] at the end of the draft too!"
+5020 = "He's gonna get the first hit! I'm out of options. As long as I don't lose all three hearts, there's always a chance to heal though!"
+
+//---- Tutorial #3 >>TUTORIAL6 >>TUTORIAL7 >>TUTORIAL8 >>TUTORIAL9 >>TUTORIAL10
+5021 = "[c_STA][spr_icon_sta_sm]STA[/c] dice can be used in any slot while keeping their value intact."
+5022 = "They're definitely going to land their next hit."
+5023 = "I'm out of [c_STA][spr_icon_sta_lg]STA[/c] to help my stats, but I can still use my [c_SPD][spr_icon_spd_lg]SPD[/c] to my advantage!"
+5024 = "Use [c_pink][spr_icon_connect_sm]React[/c] to increase your [c_DEF][spr_icon_def_sm]DEF[/c] instantly when your ability [c_pink][spr_icon_connect_lg]Connects[/c]." //【ONLYかな】
+5025 = "Yeah! That's why [c_SPD][spr_icon_spd_lg]SPD[/c] is of the essence!"
+5026 = "[shake]Oooooh[/shake], a gem! I can embed it into my weapon for extra effects."
+5027 = "This one will automatically discard any die with a value of 1 drafted by my opponent."
+5028 = "They don't last forever, though, so I need to keep an eye on their durability meter."
+5029 = "Whew! There's a Doctor up ahead. I can finally recover all my [spr_icon_hp_lg]HP."
+
+//---- Popup headlines for tutorial【ONLYかな】
+3500 = "ABILITIES"
+3501 = "HEARTS (HP)"
+3502 = "CONNECT"
+3503 = "DICE"
+3504 = "SLOT SWAP"
+3505 = "END DRAFT"
+3506 = "SPOILS"
+3507 = "TECHNIQUES"
+3508 = "STAMINA"
+3509 = "FOOD"
+3510 = "RESOURCES"
+3511 = "STA DICE"
+3512 = "INSTANT BUFF"
+3513 = "SELLING"
+3514 = "PASSIVES"
+3515 = "BUYING"
+3516 = "[c_pink]WILD[/c] DICE"
+3517 = "TRAPS"
+3518 = "ACC DECREASE"
+
+//---- Innkeeper intro: >>BARKEEP
+1062 = "Welcome! You can't explore the depths on an empty stomach or tired feet. Why not grab a bite and rest a spell? You'll be amazed how much more you can do after a little R&R."
+
+//--- After resting at the Inn for the 1st time >>TRAVERN_FIRST_REST
+1070 = "Ahh, that felt [wave]great[/wave]! Nothing like a nice rest to give me the extra [c_STA][spr_icon_sta_lg]Stamina[/c] I need for the battles ahead."
+
+//---- Chest tutorial: >>CHEST_TUTORIAL >>CHEST_TUTORIAL2
+5030 = "Is that... [wave]a treasure chest[/wave]? It's gotta have some useful items inside!"
+5031 = "To unlock it, I'll have to beat each stat number using my Draft, items and even my [c_STA][spr_icon_sta_lg]STA[/c]."
+5032 = "But I can reroll my remaining Draft only three times, so... hopefully luck is on my side today."
+5033 = "I'm so close! Now to decide if i'll use the 6 [c_ACC][spr_icon_acc_lg]ACC[/c] die to add 1 to my [c_SPD][spr_icon_spd_lg]SPD[/c], or spend 1 [c_STA][spr_icon_sta_lg]STA[/c] to do that. Either way, it should work."
+//5033 = "I'm so close! But I don't have any rerolls left. There must be a way to add 1 more point to my [c_SPD][spr_icon_spd_lg]SPD[/c]."
+
+//---- Pink Dice tutorial: >>PINK_DICE
+5034 = "Wild dice reveal their color after they are drafted." //【ONLYかな】
+5035 = "The opponent can use [c_orange][spr_icon_trap_sm]Traps[/c]! Their effect will trigger if you [c_pink][spr_icon_connect_sm]connect[/c] an ability."
+
+//---- Blueprints quest end: >>BLUEPRINTS_DELIVER
+1071 = "Here you go! Pretty impressive, amiright?"
+1072 = "Huh. Nice work. I'll need to review what they've done to my designs, so give me some time."
+1073 = "You do your thing, I'll do mine! I wonder if the merchant has anything I can use."
+
+//---- Merchant intro (sell tutorial): >>MERCHANT
+2600 = "Hey there! Don't just stop and stare! I've got fine wares from everywhere for a fair fare! If you've got the gold, I've got the goods to help to explore s'more!"
+2601 = "[wave]Oh![/wave] Is that a [c_STA]Golden Watch[/c]? You know, I can also pay you a fair amount of gold for your leftover trinkets."
+2602 = "[spr_mouse,0] over your [c_yellow]Golden Watch[/c] to sell it to the merchant." //【ONLYかな】
+2603 = "Thank you very much. Yes, this is a fine watch."
+2604 = "Now, why don't you invest your recently earned money into some helpful items?"
+2605 = "Purchase an item from a merchant to continue."
+2606 = "Excellent, see you around!"
+
+//------ ##CHAPTER 1 START
+
+//---- Kohler quest: >>KOHLER_INTRO
+1077 = "[wave]I'm back![/wave] Find anything interesting?"
+1078 = "More like “distressing.”"
+1079 = "What?! [shake]WHAT?![/shake] Are they infusing their dastardly devices with the very hopes and dreams of the people of Julesvale?!"
+1080 = "What? No! They've taken my delicate, precision machinery and overclocked it to the extreme. "
+1081 = "[wave]*sigh*[/wave] Story of my life."
+1082 = "Anyway, this Mega Digger here is modified for maximum output but zero safety."
+1083 = "With power like that, they could destabilize the mines! Cave in all of Julesvale!"
+1084 = "They're doing a test run at the very heart of the caverns. Fleet, you have to stop it from literally undermining the town."
+1085 = "I'll bring it down, and anyone who gets in my way!"
+
+//---- Kohler scene: >>KOHLER_MEET
+1086 = "Hold, vile fiend!"
+1087 = "This dig site is for authorized personnel only, missy! Get lost before you get hurt!"
+1088 = "I don't think so, Foreman Kohler! I hold you responsible for your crimes against Julesvale's well-being!"
+1089 = "Waitaminute...you're that brat who's always harassing my staff!"
+1090 = "It's not harassment! It's justice! I'm the hero, darnit!"
+1091 = "You're a nutcase. First I'll deal with you, then I'll bury what's left during excavation!"
+
+//---- Death during the first quest: >>BLUEPRINTS_DEATH
+1100 = "Looks like you are in trouble.\nLet my [wave]healbot[/wave] take care of you!"
+//---- Death during Kohler first: >>KOHLER_DEATH
+1101 = "Ouch, Kohler is tough. You'll surely beat him next time with better items. You can get plenty at the Shop, and be sure to loot as many enemies as you can."
+
+//------ ##CHAPTER 2 START
+
+// Lava pools tutorial:
+1102 = "What's this, a pool of lava?"
+1103 = "It could've been deadly. But I've got plenty of [c_STA][spr_icon_sta_lg]STA[/c] to fuel my regeneration ability, so I'll manage."
+
+//---- Randall intro: >>RANDALL_INTRO
+1120 = "Pardon me, young miss. Might you be the legendary hero of Julesvale?"
+1121 = "Ohmygosh! Mr. Randall! You've heard of me?"
+1122 = "The bowman bandit? The community thief? Robber of the rich and the people's hearts?"
+1123 = "[shake]EEEEEEEEE![/shake]"
+1124 = "Yes, that's me. Fleet. The Archer of Justice. How can I help, gramps?"
+1125 = "I am in dire need of your aid. A darkness grows in Julesvale..."
+1126 = "[shake]I KNEW IT![/shake]"
+1127 = "I had hoped to enlist the help of some others, but each one betrayed me."
+1128 = "Hold on, good sir. Back it up. Tell me [wave]everything.[/wave]"
+
+//---- Slade intro: >>SLADE_INTRO
+2700 = "(So this is Julesvale, eh? Feels claustrophobic for my tastes...)"
+2701 = "(If the stories be true, the riches here are beyond imaginging.)"
+2702 = "(And I'll need a hefty haul of amsidian to complete my quest. Thankfully, that old man over there is both the talk of the town and apparently loaded with the stuff.)"
+2703 = "Avast there, old timer! I hear you're the one with what I need."
+2704 = "That depends on what you need, young man."
+2705 = "A stone that glitters with an unearthly darkness. A gem that's so valuable it's made it all the way to Merchant Port. I'm talking about amsidian."
+2706 = "Oh ho ho! You mean - this?"
+2707 = "Red sky at night! How do you have so much?"
+2708 = "I have my sources. There are many eager souls who have a good eye for treasure and know what's needed to bring it in."
+2709 = "I could be such a soul."
+2710 = "Haha! I like that spirit, boy. So much so I'll let you in on a little secret: there's greater riches to be found."
+2711 = "I'm all ears."
+2712 = "The fabled “Drop of Nourishment” is said to rest at the heart of the Underground Oasis. Not only is it uniquely rare, it allegedly has miraculous properties."
+2713 = "(Would my plan work better with that over the amsidian?)"
+2714 = "I desire this relic very much. Fetch it for me, and I'll reward you handsomely. Take this as an advance."
+2715 = "That's quite the generous advance."
+2716 = "It's worth it. Find me the Drop of Nourishment. Return home with a boatload of treasure."
+2717 = "I'm sure I'll know it when I see it. Get the rest of the amsidian ready for payout, I won't be long!"
+
+//---- Slade quest start: >>SLADE_QUEST_START
+2718 = "(Never try to con a pirate, old man. Nobody is that generous or trusting. Something's not right.)"
+2719 = "(It's been a long strange voyage since I left my home in the Polekai Islands.)"
+2720 = "(I've sailed as far north as Merchant Port, then all the way west until I could sail no more.)"
+2721 = "(Now my sea legs have carried me all the way inland to Julesvale...)"
+2722 = "(I prefer the thought of taking the Drop of Nourishment for myself. This amsidian might be the key to getting everything I want, but something about them is...sinister.)"
+2723 = "(I'll just have to keep my wits about me. Treasure hunting is never without risk. And that's what makes it so much fun!)"
+
+//---- Slade meets a digger: >>SLADE_DIGGER
+5700 = "More...more...I must keep digging...must have more amsidian..."
+5701 = "You're committed to your cause, I'll give you that, matey."
+5702 = "Dig...through you...!"
+5703 = "Avast! I'll cut you down first!"
+
+//---- Drop of Nourishment found: >>NOURISHMENT_FOUND
+1143 = "This must be the Drop of Nourishment. Fancy little bauble. It feels...powerful..."
+1144 = "...and expensive. I am in Julesvale after all. What could it hurt to linger and line my pockets a bit more? [wave]Heh heh heh...[/wave]"
+
+//---- Hamir intro: >>HAMIR_INTRO
+1145 = "That looks like...Olympia?"
+1146 = "Hamir? Hmph. I never thought I'd see you again. Get tired of your precious wall?"
+1147 = "N-No. There was...something happened...and I..."
+1148 = "Abandoned your post? Just like you abandoned our way of life. At least you're consistent."
+1149 = "Olympia..."
+1150 = "I have more important things that need my attention. Good-bye, Hamir."
+1151 = "[wave]*sigh*[/wave]"
+1152 = "My-my. That was quite the scene. Are you alright?"
+1153 = "N-No sir. I haven't been for quite some time."
+1154 = "I'm an old man with nothing but time on his hands. I can lend an ear."
+1155 = "I...lost my partner. In life and in duty. I have no direction now..."
+1156 = "Mattock would want me to live on, but...to what end? The riches coming out of the mines mean nothing to me. I'm lost...uncertain...scared..."
+1157 = "Might I offer you some amsidian in these trying times? It's said to have invigorating properties."
+1158 = "It is a...nice mineral, sir. But I need more help than that."
+1159 = "Indeed? Then what you should seek out is the Shield of Courage. A relic of the old world, hidden deep in the Mineral Deposits."
+1160 = "I don't know..."
+1161 = "You'd refuse my advice? Even after I gave you all that amsidian?"
+1162 = "N-No sir! I am grateful, just..."
+1163 = "Then you have direction in life once more! Happy hunting, my friend! Bring me the relic and let everything fall into place as it will."
+1164 = "[wave]*sigh*[/wave] I suppose it couldn't hurt..."
+
+//---- Hamir quest start: >>HAMIR_QUEST_START
+2724 = "(This amsidian...something about it reminds me of the Black Root that cracked open the Rock Wall. The same force that killed...)"
+2725 = "..."
+2726 = "(I need to make it up to him. I need to prove Olympia wrong. I'll find this Shield of Courage.)"
+
+//---- Hamir meets a digger: >>HAMIR_DIGGER
+5704 = "So dark...must dig deeper...gleaming amsidian..."
+5705 = "Is this confidence...or obsession?"
+5706 = "My dig! Bury you!"
+5707 = "This savagery--! Fine! You leave me no choice!"
+
+//---- Shard of Courage found: >>SHIELD_FOUND
+2729 = "This is it. I can [shake]feel[/shake] its power. With this...I could do anything."
+2730 = "Once I show the other Wall Runners what I've found, they'll understand."
+2731 = "No..."
+2732 = "Enough humility on my part. I'll make them understand. I'll show everyone what I can do!"
+
+//---- Artemis intro: >>ARTEMIS_INTRO
+1165 = "(So this is Julesvale. Not much to look at. Their steam-powered technology is impressive, though. With proper application, it could be a threat to the empire.)"
+1166 = "(Perhaps I should suggest Emperor Loxodont press westward and annex this region and its technology...)"
+1167 = "(But first I must complete my mission. The Emperor's coronation remains incomplete since the Rite of Fire was stolen.)"
+1168 = "(If Prince Zetterburn cannot secure it, a new talisman must be supplied. It's said Julesvale is brimming with relics and riches. Perhaps I can find something here...)"
+1169 = "Pardon me, madam, but you look like a woman on a mission."
+1170 = "Whatever you're selling I'm not interested."
+1171 = "Not selling - [wave]giving.[/wave] Surely you've heard of amsidian? Call it a tribute to the fearsome Flame Imperium."
+1172 = "You're the first to show the proper respect to me out here. The [shake]only[/shake] one."
+1173 = "Prudent of you to to be suspicious. What may I do to earn your trust?"
+1174 = "I seek more than mere riches. I need a totem of notable power. Tell me - have you heard of anything of this nature?"
+1175 = "Ah, it must be fate. Clearly you're meant to find the Ember of Destruction. The holy relic is said to rest deep in the Lava Tubes. You alone look sturdy enough to brave its heat and perils."
+1176 = "Sounds promising. But it's just sitting down there? No one has claimed it?"
+1177 = "Many have tried. All have failed."
+1178 = "On my honor as a Fire Mora, I shall not. Peddle your pebbles, old man. I have work to do."
+
+//---- Artemis quest start: >>ARTEMIS_QUEST_START
+1179 = "The floor is lava... its heat ebbing and flaring."
+1180 = "I must watch my footing and not be standing where it's blistering hot."
+
+//---- Artemis meets a digger: >>ARTEMIS_DIGGER
+5708 = "Too hot...keep digging...more cool, dark amsidian..."
+5709 = "Your devotion to your corporate overlords is pathetic."
+5710 = "Burn your remains...no witnesses..."
+5711 = "That look in your eye, though...come! Meet your end!"
+
+//---- Ember of Destruction found: >>EMBER_FOUND
+5712 = "(Emperor Loxodont charged me with finding something to replace the Rite of Fire.)"
+5713 = "(It...doesn't feel right to replace our holy standard. Perhaps Prince Zetterburn will retrieve it by the time I return and render the matter moot...)"
+5714 = "(Regardless, this “Ember of Destruction” should be in the hands of the Flame Imperium!)"
+5715 = "This has to be it. Such fiery power! With this, the Flame Emperor will lead us to glory across Aether!"
+5716 = "Or...perhaps a new Flame [shake]Empress[/shake] will..."
+
+//---- Blacksmith intro: >>SMITH
+6075 = "Avast, my good smithy! "
+6076 = "Feh. Another drifter looking to waste my time..."
+6077 = "Hardly! I'm here to...puruse your wares."
+6078 = "You'll find no better. My forging is so good, you'll swear your own stats have improved."
+6079 = "So you say. What about a sample, mmm?"
+6080 = "You're a seaman, right? Shove off."
+6081 = "Hey buddy! You better not be plotting any villainy!"
+6082 = "Would you consider “piracy” a form of villainy?"
+6083 = "Of course!"
+6084 = "Bah, I can tell when I'm not wanted. We'll see if you're more ammenable when I bring some coin."
+6085 = "Feh. If you bring coin."
+6086 = "What a creep. I hope I don't run into him again."
+
+//---- Banker intro: >>BANKER
+6087 = "Goodness! A Wall Runner! We don't see too many of you off the Rock Wall."
+6088 = "Is this a personal trip, or is it for business?"
+6089 = "I'm here on...personal business."
+6090 = "Haha! Very clever!"
+6091 = "...thank you...?"
+6092 = "If you like, sir, you can store whatever you like in our vault."
+6093 = "It's a good idea. Lightens your load for the next adventure!"
+6094 = "Oh? I suppose that makes sense."
+6095 = "You need to watch your back out there, friend! Badger Co.'s cronies are everywhere."
+6096 = "I'll be on my guard. Thank you."
+6097 = "If they hassle you, just tell 'em you've got Fleet, the Hero of Julesvale watching your back!"
+6098 = "Don't trouble yourself. I can handle myself in a fight. Be well."
+6099 = "Take care, stranger!"
+
+//---- Witch intro: >>WITCH
+6100 = "You there. You deal in amsidian, correct? You will supply me."
+6101 = "I bless all with the darkened light... when properly compensated."
+6102 = "Have you not heard of the Fire Mora? Our fiery might is known throughout Aether."
+6103 = "Just as the riches of Julesvale have become common knowledge."
+6104 = "So I will ask once more: will you contribute to the Flame Imperium's cause?"
+6105 = "I impart the ancient power gladly, but to everyone! You can't have it all!"
+6106 = "Then you've foolishly chosen to make enemies of the greatest power in the world!"
+6107 = "And you've made enemies of the greatest hero in Julesvale!"
+6108 = "Leave, child. The adults are talking."
+6109 = "[shake]You[/shake] leave! Or I'll fill your hide full of arrows!"
+6110 = "[wave]HA HA HA![/wave]"
+6111 = "I like your spirit. For that alone I will leave you in peace. "
+6112 = "My own might should be sufficient anyway."
+6113 = "Are you okay?"
+6114 = "I will abide. Thank you."
+6115 = "So...can a hero get a little reward for stepping up?"
+6116 = "No freebies."
+
+//---- Chapter 2 end: >>CHAPTER2_END
+6117 = "...and all three never returned to me. Doubtlessly they took the ancient relics for themselves."
+6118 = "The dirty thieves!"
+6119 = "I mean...the bad kind of thieves. Not like my thievery. That's different. Totally."
+6120 = "And to think I ran into each of them and didn't even know it!"
+6121 = "That's why I sought you out. If anyone can steal back the shards and help save Julesvale, it's the Archer of Justice!"
+6122 = "[shake]YES![/shake]"
+6123 = "But...wait...I was helping Ayala weaken Badger Co.'s stranglehold on Julesvale..."
+6124 = "Three foreign agents, all arriving at roughly the same time, betraying an old man to hoard holy relics? Doesn't that sound a trifle suspicious?"
+6125 = "[wave]...of course![/wave] This is all orchestrated by Badger Co.!"
+6126 = "Such a clever girl."
+6127 = "You can count on me, sir! I'll recover those shards in no time, and then we'll stop Badger Co. for good!"
+6128 = "..."
+6129 = "So that's the deal! Old Man Randall has unearthed a plot where Badger Co. hired foreign agents to steal long-lost Julesvale relics!"
+6130 = "I don't know...it all sounds suspicious to me..."
+6131 = "No offense, but you don't seem to trust anyone."
+6132 = "..."
+6133 = "This is the big break we've been waiting for! A chance to strike a critical blow to Badger Co.'s plots against Julesvale!"
+6134 = "Look, nothing against Mr. Randall. He loaned me some cash after President Badger gave me the boot. But this isn't adding up for me."
+6135 = "Well I trust him, and I'm going after those three!"
+6136 = "You just want the glory, but you're not going to listen to me."
+6137 = "Fine. Go mug some strangers for all I care."
+6138 = "I will! And once I save all of Julesvale from utter doom, I'll come back for your apology!"
+
+//------ ##CHAPTER 3 START
+
+//---- Hamir 2nd quest intro: >>HAMIR2_INTRO
+2758 = "I recovered the Shield of Courage, old man. You were right! I feel reborn! Like I have the courage to face...all that I've lost."
+2759 = "And what was it you lost?"
+2760 = "I told you. Mattock. My partner...in all things."
+2761 = "What if I told you that death was not...always the end?"  
+2762 = "What do you mean?"
+2763 = "There is another shard, like the one you hold there, called the “Breath of Life.” It could bring your precious partner back. If you have the courage to do what must be done, of course."
+2764 = "With the Shield of Courage I do now!"
+2765 = "Good! I've learned of a horrid little malcontent who has taken it for herself and hidden deep in the Lava Tubes. She is called “Olympia.”"
+2766 = "Olympia..."
+2767 = "Strike swift and true, noble Wall Runner. End her before she can poison your ears with her lies. Then bring all you've found back to me and we can make things right - for everyone."
+2768 = "(I...cannot be slowed by doubt. I have the Shield of Courage. I have the power to face her now. For Mattock, I will see this through!)"
+
+//---- Slade 2nd quest intro: >>SLADE2_INTRO
+2769 = "I came here hoping to find enough amsidian to lure Orcane back to the Polekai Islands. I didn't expect to find [shake]this[/shake] much!"
+2770 = "So many glittering goodies! I might have to make multiple trips! [wave]HA HA HA![/wave]"
+2771 = "And with the power of this shard, I'll be running back and forth from the coast like a....well, like a fish takes to water! [wave]HA HA HA![/wave]"
+2772 = "I must delve deeper! What other riches do you hold, my sweet mines?"
+
+//---- Artemis 2nd quest intro: >>ARTEMIS2_INTRO
+2773 = "(I came here seeking a new power for the throne and the Flame Imperium. I have found it, and yet...)"
+2774 = "(I must understand the power of this shard before I head back east. Whether it's to lay it at Loxodont's feet...or to make him bow to mine...I need to know just what it can do.)"
+
+//---- Fleet 3rd quest intro: >>FLEET2_INTRO
+1196 = "...and you believed him?"
+1197 = "He's a kindly old man who just wants the best for Julesvale! Why shouldn't I believe him?"
+1198 = "The guy seems to be telling you what you want to hear."
+1199 = "But it's the best lead we've had since the Badger Co. [c_blue][spr_feather,0] blueprints[/c]!"
+1200 = "Alright, alright, I won't try to stop you. But while you're hunting down those three, don't forget to help folks around town too."
+1201 = "Of course not! Heard of anyone in need?"
+
+//---- Slade meets Olympia: >>SLADE_OLYMPIA
+1202 = "Red sky at morning - what is that?!"
+1203 = "Show some respect!"
+1204 = "This is Amethor, perhaps the last surviving titan from the birth of Aether."
+1205 = "Strangely that doesn't answer my question."
+1206 = "In the beginning, the gods blessed some creatures and created others of pure elemental power to fight the darkness covering the world."
+1207 = "Amethor was one of Sylvanos's chosen."
+1208 = "I'd wager that shard you hold came from Amethor's scales."
+1209 = "For a walking mountain it looks...sick?"
+1210 = "It's been trying to contain the sickness seeping from deep below Julesvale. After all this time, it's grown weak. I think it's dying."
+1211 = "..."
+1212 = "Not on my watch. The whole reason I left home was to find a way to restore the health and happiness of my village. I...lost sight of that."
+1213 = "And I certainly can't turn a blind eye to what's going on here. Drop of Nourishment! Purify!"
+1214 = "I...I think that worked! Amethor is looking healthier already!"
+1215 = "Think I'll let you steal one of Julesvale's relics just because of one good deed? Think again!"
+
+//---- Slade victorious: >>SLADE_VICTORY
+1218 = "Wow, you're tough. I guess I'll cut my losses. [wave]Ta-ta![/wave]"
+1219 = "That's right! Shove off before I...waitaminiute."
+1220 = "She swindled me during the fight!"
+1221 = "[wave]HA HA HA![/wave] So that's what that feels like! Well played, well played."
+1222 = "The most important thing is you helped cure Amethor. C'mon, I'll help you get top-side before getting back to my research."
+
+//---- Hamir meets Olympia: >>HAMIR_OLYMPIA
+1223 = "(There she is! The intensity of the heat has taken its toll on her. If I strike now, I could...)"
+1224 = "[shake]*cough-cough!*[/shake] Hamir...?"
+1225 = "..."
+1226 = "Here, drink this. What are you doing down here?"
+1227 = "There's a sickness in the ore throughout the mines. An unnatural darkness that's managed to spread all the way to our homeland...to the Crystal Oasis."
+1228 = "I think it's spread further than that. I think it's the source of the Black Root that shattered the Rock Wall."
+1229 = "Something pierced the Rock Wall? Then it's worse than I feared. I came here to search for answers but the heat...ugh..."
+1230 = "You're barely able to stand. You...do not have any kind of revitalizing shard, do you?"
+1231 = "No...?"
+1232 = "Did you happen across an old man peddling in amsidian?"
+1233 = "Yes. I questioned him on his source, among other things. He became very hostile, so I let him be. Why?"
+1234 = "It's a concern for later. For now, I must get you to the surface."
+1235 = "Not that I'm ungrateful, but you were the last person I expected to come to my rescue."
+1236 = "We Wall Runners work to protect everyone."
+1237 = "Yeah, but you're the first one I've seen to do so this far from off the wall."
+1238 = "I never should've helped you back at the bank! Have at you, villain!"
+
+//---- Fleet victorious: >>HAMIR_LOSS
+1239 = "Give back that shard!"
+1240 = "Nope! I stole it back fair and square! "
+1241 = "[shake]Grr...[/shake]"
+1242 = "We'll track her down later. We need to get back to the surface to recover. Then I need to continue my research."
+
+//---- Hamir victorious: >>HAMIR_VICTORY
+1243 = "You fought well, but you are beaten. You cannot defeat me while I posses...wait."
+1244 = "Where did it...?! Give back that shard!"
+1245 = "Nope! I stole it fair and square! Have fun frying, Badger Co. flunkies!"
+1246 = "[shake]Grr...[/shake]"
+1247 = "We'll track her down later. We need to get back to the surface to recover. Then I need to continue my research."
+
+//---- Artemis meets Olympia: >>ARTEMIS_OLYMPIA
+1248 = "(The power is undeniable. And yet...)"
+1249 = "Had your fun?"
+1250 = "Do your digging elsewhere, treasure hunter. I'm busy here."
+1251 = "I'm no greedy treasure hunter. I'm on a mission for the good of all Aether, including your Flame Imperium."
+1252 = "Oh? What could you possibly do for me?"
+1253 = "Offer a few words of wisdom, to start. Keep in mind that the fire that burns hottest burns briefest. Do you really want your precious nation to fizzle out, driven by that shard?"
+1254 = "(She has a point. I can barely contain the power I'm holding. I do not think I could trust such overwhelming might to anyone.)"
+1255 = "(Upon reflection, the Rite of Fire was a gift from the gods, passed down to each worthy successor. Loxodont was denied that. Could that mean...?)"
+1256 = "You're the jerk who was threatening the witch! And now you're trying to steal one of Julesvale's treasures! No more warnings! You're going down!"
+
+//---- Fleet victorious: >>ARTEMIS_LOSS
+1257 = "So much for the “fearsome” Fire Mora! I got what I came for, so toodles!"
+1258 = "Impossible! My honor will not stand for this!"
+1259 = "Perhaps it was for the best? Come. I'll escort you back to the surface before getting back to my research."
+
+//---- Artemis victorious: >>ARTEMIS_VICTORY
+1260 = "Yikes! I got what I came for! I'm outta here!"
+1261 = "What was that all about? No matter. What's important is I have..."
+1262 = "...no."
+1263 = "[shake]NO! SHE TOOK THE SHARD![/shake]"
+1264 = "Perhaps it was for the best? Come. I'll escort you back to the surface before getting back to my research."
+
+//---- Chapter 3 end: >>CHAPTER3_END
+1265 = "[wave]Ta-da![/wave] Three holy relics, just like you said!"
+1266 = "Haha! I knew I could rely on you! You braved the depths of Julesvale with record speed!"
+1267 = "(Well, those other three kind of cleared the way for me, but...)"
+1268 = "I've spent my whole life in Julesvale! I know my way around every centimeter of it!"
+1269 = "It's strange, though...the thieves didn't seem connected to Badger Co. at all."
+1270 = "Looks can be deceiving, my dear. What's important is you found the shards."
+1271 = "Right! So what's next?"
+1272 = "I will take them to a special altar deep in the crypts and prepare the rites necessary to bring an end to all this."
+1273 = "Hold on! Now Badger Co. is desecrating the dead?! Does their villainy know no bounds?! "
+1274 = "The darkness has a way of creeping up on you. Now then - will you do me one last kindness and escort a frail old man?"
+1275 = "Lead the way, sir!"
+
+//------ ##CHAPTER 4 START
+
+//---- Bottom of Crypts: >>CRYPTS_BOTTOM
+1276 = "Brrr...why is the altar all the way down here?"
+1277 = "To act as a seal for that door there."
+1278 = "Seal? What needs to be sealed...?"
+1279 = "Whoa!"
+1280 = "Should it be...seeping like that?"
+1281 = "No. You see, thousands of years ago, my colleagues and I used these shards to seal the darkness away."
+1282 = "Wait...what?"
+1283 = "Those three fools couldn't handle the burden. I watched as they retreated to the depths of the Julesvale caverns and succumbed to the power of the shards."
+1284 = "You said that was thousands of years ago, but also you said you knew them? How could..."
+1285 = "[shake]*gasp!*[/shake] You have one too!"
+1286 = "Very astute! The Breath of Life granted me the vitality and time I needed to realize how hopelessly greedy the people of this world are."
+1287 = "And so I have given them riches that they want. My amsidian has been seeded across the world."
+1288 = "Even you have helped by spreading it across Julesvale!"
+1289 = "I could not retrieve the shards in my frail state. But by pitting you and the three foreign fools against each other, the relics have now all come back to me."
+1290 = "I will unlock the seal with these shards, take control of the darkness within, and activate my precious amsidian!"
+1291 = "All who horde them will become my undead servants! I shall command an never-ending army to purge the unworthy, crush the abyss and purge the world of its vices in one masterful stroke!"
+1292 = "The world - all its hopes, dreams and ambitions - will be mine to shape and control!"
+1293 = "I won't let that happen!"
+1294 = "You already have! And as your reward, I will make you my personal assassin!"
+
+// >>FLEET_ESCAPE
+1295 = "It's time to die and live forever, my dear!"
+1296 = "Oh no, he's using the Breath of Life to recover fully...!! I need to retreat and find help!"
+
+//---- Return to Julesvale (uncorrupted): >>JULESVALE
+1297 = "Randall's plan is already in full swing! Julesvale is being corrupted!"
+1298 = "Fleet! Over here! I have a note from Ayala!"
+1299 = "“We've evacuated the town and retreated to the safety of the mines.” I need to get moving!"
+1300 = "Go on ahead! I'm getting the last of my patrons and we'll be right behind you!"
+
+//---- Return to Julesvale (corrupted): >>JULESVALE_CORRUPTED
+1301 = "Randall's plan is already in full swing! Julesvale is being corrupted!"
+1302 = "Heh heh...this was for you...but it's [shake]mine[/shake] now..."
+1303 = "Give it here!"
+1304 = "It's a note from Ayala! “We've evacuated the town and retreated to the safety of the mines.” I need to get moving!"
+
+//------ ##CHAPTER 5 START
+
+//---- Fleet meets Hamir: >>CAVES_HAMIR
+1305 = "You again! Little thief..."
+1306 = "Yeah, I messed up, I know."
+1307 = "Fall back to the bottom! I'll cover you!"
+1308 = "Now you're trying to help?"
+1309 = "I've always been trying to help! I know it's asking a lot, but please fall back so we can regroup!"
+1310 = "Suddenly you remind me of Mattock. All right, little thief. I will trust you for now."
+
+//---- Fleet meets Slade: >>CAVES_SLADE
+1311 = "Avast! You think you can act like my friend now?"
+1312 = "I know I have a lot to answer for!"
+1313 = "Please, just fall back for now. I'll cover you!"
+1314 = "Things were getting a little dicey..."
+1315 = "Eh, no skin off my fin if these things eat you. Thanks!"
+1316 = "You're... welcome?"
+
+//---- Fleet meets Artemis: >>CAVES_ARTEMIS
+1317 = "Excellent! I was hoping to cut you down before the monsters got me!"
+1318 = "Can we... put a pin in that for now? There's a bigger threat!"
+1319 = "Fall back! I'll cover you!"
+1320 = "Please. I can cut down these things all day if I have to."
+1321 = "But there's about to be more! Tons more! They won't just stop at Julesvale!"
+1322 = "Ah, so you have intel on the enemy? Fine. I will await your report further in. Do not keep me waiting."
+
+//---- The team meets Ayala and Olympia: >>CAVES_BOTTOM
+1323 = "Fleet! You're okay!"
+1324 = "Not really. I wanted to protect Julesvale, and instead I doomed it."
+1325 = "You. You stole the shards. Where are they?"
+1326 = "I gave them to an old man who said he was going to save Julesvale. Instead he's some creepy necromancer nutbar!"
+1327 = "Slow down. Where exactly is he now?"
+1328 = "At some creepy altar at the bottom of the creepy crypts in front of a super-creepy door!"
+1329 = "Do you know something, Olympia?"
+1330 = "Long ago, the Elementals united to fight back the darkness known as the Abyss."
+1331 = "Legend says Julesvale was the site of one of the fiercest battlegrounds. Four champions used the power of the shards to turn the darkness back on itself and seal it away."
+1332 = "Well the seal's broken and the old man is going to open it all the way!"
+1333 = "Then he must be stopped."
+1334 = "Agreed. I won't allow this darkness to reach the Firelands."
+1335 = "Once again, it looks like I've bitten off more than I can chew. Oh well. I can't turn a blind eye to this mess."
+1336 = "Then you'll need a guide. I know the best way down! "
+1337 = "You have done enough."
+1338 = "Hey! I've been fighting for Julesvale on my own for a while now!"
+1339 = "Badger Co. chased my family out of town. Nobody takes me seriously. And the three of you fell for his trickery as much as I did."
+1340 = "I screwed up. Big time. So now I have to make things right."
+1341 = "But...I can't do it alone. And I know how tough you guys are. So...please. Help me. Let me help you. Just...think about it for a second."
+
+//---- Fleet talks to Hamir: >>CAVES_HAMIR2
+8000 = "So...you're a Wall Runner, huh?"
+8001 = "Ex-Wall Runner. Disgraced and unworthy."
+8002 = "Yikes."
+8003 = "I mean...I didn't think people could leave the Wall Runners? Like, it was a lifetime deal?"
+8004 = "It's supposed to be. It is what enticed me from my homeland. I wanted a purpose. I wanted to serve something greater than myself. "
+8005 = "The Rock Wall is a holy place that protects the Aetherian Forest from the world, and the world from the forest's hunger. I thought that by helping to maintain it I would find...satisfaction."
+8006 = "And did you?"
+8007 = "It was good...until I was put to the test. A great Black Root broke through the Rock Wall. From the outside. I fled. Like a coward. My partner stood his ground...and was lost."
+8008 = "I'm sorry."
+8009 = "That's why when the old man told me Olympia might hold a shard that could raise the dead, I considered...no. Nevermind."
+8010 = "The truth is he has that shard, and he's going to ruin the world with it and all the dark gunk below."
+8011 = "I swore to protect this city. The fact I can get that old buzzard back for tricking me is icing on the cake."
+8012 = "Heh."
+8013 = "So you would stand your ground? With or without us?"
+8014 = "I've been on my own for a while now. I'm used to it. But I wouldn't mind a little help from a Wall Runner. Sorry! Ex-Wall Runner."
+8015 = "Very well. Let's head out as soon as possible."
+
+//---- Fleet talks to Slade: >>CAVES_SLADE2
+8016 = "So...no hard feelings about robbing you?"
+8017 = "Occupational hazard. You're rather good, actually. And since I'm [wave]amazing,[/wave] that's high praise."
+8018 = "So...we're cool?"
+8019 = "I'm not inclined to go sailing with you anytime soon, but I'll quite happily use you as a living shield as we fight ungodly eldritch horrors."
+8020 = "That's...touching?"
+8021 = "I may be a pirate, but I'm an [wave]honest[/wave] pirate."
+8022 = "You sure are a long way from the sea."
+8023 = "My quest has taken me in...unexpected directions."
+8024 = "I thought you said you were an “honest pirate!” Spill the beans!"
+8025 = "Oh, I'm honest. But I'm also cagey. If my life story is that valuable to you, then it means I need to keep it even closer to my vest."
+8026 = "Well, can I at least count on you to watch my back?"
+8027 = "So long as I can count on you to watch mine."
+8028 = "Deal!"
+8029 = "Then we have an accord."
+
+//---- Fleet talks to Artemis: >>CAVES_ARTEMIS2
+8030 = "Begone, thief. I don't have time to spare punishing you."
+8031 = "Look, the old man tricked me, okay?"
+8032 = "Then you're a thief [shake]and[/shake] stupid. Begone."
+8033 = "This is my home! You're the unwelcome outsider!"
+8034 = "The Fire Mora goes where it is needed, not where it's wanted."
+8035 = "Yeah? And just what “needed” you here? Is the Flame Imperium planning on marching clear across Aether to conquer Julesvale?"
+8036 = "(Not yet.)"
+8037 = "My orders are confidential."
+8038 = "W-Well....then listen here, lady! When this is all over, it won't make us friends!"
+8039 = "Oh?"
+8040 = "That's right! If you and your Fire [shake]Morons[/shake] come marching on my town, I'll shoot you all down myself!"
+8041 = "You? Tiny, scrawny, stupid little you? Stand against the might of the Flame Imperium?"
+8042 = "[shake]Y-Y-Yes![/shake] My family helped build this town! And even if no one is left to defend it, I'll be there!"
+8043 = "Hmm. Maybe there is some merit to you after all."
+8044 = "Was that...a compliment?"
+8045 = "Come. We have an old man to cremate."
+
+//---- Fleet talks to Olympia: >>CAVES_OLYMPIA
+8046 = "I've seen you all over the place. Who are you?"
+8047 = "Olympia, a champion of Crystal Oasis."
+8048 = "Sorry, I've never heard of it."
+8049 = "Few have. We keep to ourselves and prefer to keep it that way. Hamir is one of the rare exceptions."
+8050 = "Oh? Oh! [wave]Ooooh.[/wave] You two have a bit of history?"
+8051 = "A bit."
+8052 = "..."
+8053 = "..."
+8054 = "So...what brings you out of seclusion, then?"
+8055 = "Our miners noticed impurities arising in the ore. A darkness with a deep, corrosive power."
+8056 = "I followed the underground tunnels to the source and wound up here. Imagine my horror when I found out your people were selling the dark ore as a precious gem."
+8057 = "Well...I mean...how were we supposed to know what amsidian was?"
+8058 = "..."
+8059 = "[wave]Anyway,[/wave] I was searching for a way to counteract the amsidian and came upon the legend of the four shards."
+8060 = "Yes! The things Randall had me steal! You know how they work?"
+8061 = "To a degree. They are powerful scales, gifted to the Elementals by the behemoth Amethor. They can convert the darkness to power as well as drive it back."
+8062 = "As the Flame Imperialists say: “fight fire with fire.”"
+8063 = "If that's the case, why didn't the champions of old finish the job?"
+8064 = "From all that I've learned, their mistake was they held onto their shards. Whatever their reasons, their greed allowed the seal in the crypts to decay. And now here we are."
+8065 = "So...we [shake]can[/shake] win. We just can't hold anything back."
+8066 = "Precisely."
+8067 = "Thanks for the insight, Olympia. "
+8068 = "Can...can I ask that you look after Ayala and the others while we're gone?"
+8069 = "Never fear, Fleet. There's nothing harder than my fists. Nothing will break through."
+8070 = "Thank you."
+
+//---- Fleet talks to Ayala: >>CAVES_AYALA
+8071 = "It looks like all of Julesvale is down here..."
+8072 = "Pretty much. I built Badger Co.'s city-wide P.A. system, ya know. So I commandeered it and sent out an alert to the whole town to hide in the mines."
+8073 = "It's like a natural fortified bunker! Good thinking!"
+8074 = "Yeah, but since it came from Badger Co.'s system, everyone thinks the company is rescuing them."
+8075 = "Oh for the love of...!"
+8076 = "No. That's not the important thing right now."
+8077 = "Right. You need to stop Randall from making things worse."
+8078 = "Yeah, but before that, I owe you an apology."
+8079 = "You were right. I wanted to be the hero - more than anything. I wanted to be successful. I wanted to be recognized [shake]so bad[/shake] I got tunnel vision."
+8080 = "In the mines, no less."
+8081 = "Hey! Don't start! I'm being sincere here!"
+8082 = "Right, right. Sorry."
+8083 = "Anyway...I know it's hard for you to trust others, and it didn't take long for me to mess things up. So before I go to fix things with Randall, I wanted to fix things between us."
+8084 = "Yeah, well, maybe I need to learn not everyone's perfect. Including me. You're doing everything you can to help everyone else, and that counts for a lot in my book."
+8085 = "Thanks, Ayala. Do you think you and Olympia can handle things for now?"
+8086 = "Yeah. I think I saw Foreman Kohler in the crowd. I'll try to convince him to use his crew to keep things peaceful."
+8087 = "And if you can't?"
+8088 = "Then I'll ask Olympia to break his arm and give the orders myself!"
+8089 = "[wave]Hahaha![/wave]"
+
+//---- Leaving Underground Julesvale: >>CAVES_LEAVE
+8090 = "I won't say something trite like “be careful” but...come back in one piece, ok?"
+8091 = "We'll keep the people of Julesvale safe. Focus on stopping Randall and the darkness below."
+8092 = "We're wasting time. Let's shove off already!"
+8093 = "Agreed. Lead the way, Fleet."
+8094 = "Onward! To fire and glory!"
+8095 = "Thank you, everyone. I won't let you down!"
+
+//---- Chapter 5 end: >>CHAPTER4_END
+1342 = "I hope Ayala and Olympia can hold out."
+1343 = "I know Olympia. The villagers are in safe hands."
+1344 = "So this is where they buried all those who fell while fighting the darkness..."
+1345 = "Let's not join them, eh? I have places to go and people to pillage."
+1346 = "Alrighty guys - follow me!"
+
+//---- Spiderweb tutorial: >>WEB_TUTORIAL
+1347 = "I'd think again before stepping on those spiderwebs if I were you. Wouldn't be a pleasant journey to the altar if your [c_STA][spr_icon_sta_lg]STA[/c] gets sapped by those things, you know."
+
+//-------- #CHARACTER TUTORIALS
+
+//---- Slade tutorial: >>SLADE_TUTORIAL
+2500 = "[c_DEF][spr_icon_def_lg]DEF[/c] dice will only grant me +1 no matter what slot I place them in. What a bummer..."
+2501 = "But who needs defense when I've got dodging? [wave]Hahaha[/wave]."
+
+//---- Hamir tutorial: >>HAMIR_TUTORIAL
+2502 = "[c_SPD][spr_icon_spd_lg]SPD[/c] may not be my strong suit, but that won't stop me from ending this battle quickly."
+2503 = "I just need to take a special approach with my opponents to keep my precious [c_STA][spr_icon_sta_lg]STA[/c] high."
+
+//---- Artemis tutorial: >>ARTEMIS_TUTORIAL
+2505 = "Listen up, rats! I have no fear of pain. In fact, pain makes me stronger!"
+2506 = "But make no mistake, dying is not on my plans. Once I get enough [c_STA][spr_icon_sta_lg]STA[/c], I will regenerate."
+2507 = "Prepare to taste an [shake]invincible rage[/shake]!"
+
+//--- ACC tutorial:
+2508 = "You just used an ability that reduced the opponent's [c_ACC][spr_icon_acc_sm]ACC[/c], and they in turn selected a different ability to account for their lowered [c_ACC][spr_icon_acc_sm]ACC[/c]."
+2509 = "However, since the opponent was initially using a [c_orange][spr_icon_trap_sm]Trap[/c] ability, the Trap effect was still triggered on [c_pink][spr_icon_connect_sm]Connect[/c] before the [c_ACC][spr_icon_acc_sm]ACC[/c] decrease made them use a different ability. As a result, you're now dealing with two stacked effects from the enemy."
+
+//---- Bait tutorial: >>BAIT_TUTORIAL
+2510 = "It seems like my opponent is not going to attack, likely because they won't [c_pink][spr_icon_connect_lg]Connect[/c]."
+2511 = "Time to change my strategy."
+2512 = "Move one of your [c_DEF][spr_icon_die_0_sm]DEF[/c] dice into the [c_ATK][spr_icon_atk_sm]ATK[/c] slot to secure a [c_pink][spr_icon_connect_sm]Connect[/c]." //【ONLYかな】
+2513 = "[wave]*sigh*[/wave]. They'll keep playing defensively as long as my [c_DEF][spr_icon_def_lg]DEF[/c] is higher than their [c_ATK][spr_icon_atk_lg]ATK[/c]..."
+2514 = "Move your other [c_DEF][spr_icon_die_0_sm]DEF[/c] die into the [c_ACC][spr_icon_acc_sm]ACC[/c] slot." //【ONLYかな】
+2515 = "That's right. Make them think they can hit me."
+2516 = "They have just changed their strategy to [c_pink][spr_icon_connect_lg]Connect[/c]."
+2517 = "But I have an arsenal of instant abilities at my disposal."
+2518 = "Use [c_pink][spr_icon_connect_sm]React[/c] to increase your [c_DEF][spr_icon_def_sm]DEF[/c] instantly when your ability [c_pink][spr_icon_connect_lg]Connects[/c]." //【ONLYかな】
+
+//---- Second bait tutorial: >>BAIT_TUTORIAL2
+2519 = "I managed to keep my [c_STA][spr_icon_sta_lg]STA[/c] intact during this turn."
+2520 = "I should use this tactic whenever I can, and make sure that my [c_SPD][spr_icon_spd_lg]SPD[/c] is high enough to go first."
+
+//---- Third bait tutorial: >>BAIT_TUTORIAL3
+2521 = "Hmm. Even if I manage to bait them into attacking, I won't have enough [c_ATK][spr_icon_atk_lg]ATK[/c] to [c_pink][spr_icon_connect_lg]Connect[/c]."
+2522 = "But I do have a [c_SPD][spr_icon_spd_lg]SPD[/c] advantage."
+2523 = "Move your [c_DEF][spr_icon_die_0_sm]DEF[/c] dice to bait your opponent into [c_pink][spr_icon_connect_sm]Connect[/c]." //【ONLYかな】
+2524 = "I won't be able to inflict [spr_icon_hp_lg]DMG this turn, but I can gain some extra [c_STA][spr_icon_sta_lg]STA[/c] by using [c_tech][spr_icon_tech_lg]Roll[/c] to block!"
+2525 = "Use [c_tech][spr_icon_tech_sm]Roll[/c]." //【ONLYかな】
+
+//----
+2800 = ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+2801 = ". . . . ! !"
+
+//-------- #ENDREGION DIALOGS
+
+//---- Various gameplay texts:
+3000 = "no wounds!"
+3001 = "sold out"
+3002 = "Really abandon this quest?\nYou will lose all your progress."
+3003 = "SPOILS"
+3004 = "STORAGE"
+3005 = "HEAL"
+3006 = "Some time earlier..." // 【漢字OK】
+3007 = "Present Day" // 【漢字OK】
+3008 = "[c_grey]This game supports auto-saving.\nPlease do not turn off the power while this icon is shown."
+3009 = "sold for"
+3010 = "PICK ONE"
+3011 = "TRAP!" // trap effect activated in battle
+
+//---- Status effects:
+3020 = "dodge"
+3021 = "haste"
+3022 = "endurance"
+3023 = "discord"
+3024 = "reprisal"
+
+//---- Passive Abilities:
+3025 = "destruction"
+3026 = "[spr_icon_bullet_sm] All drafted [c_ATK][spr_icon_die_0_sm]ATK[/c] dice increase its value by one\n[spr_icon_bullet_sm] Drafted [c_ATK][spr_icon_die_6_sm]6 ATK[/c] dice grant [c_STA]1 [spr_icon_sta_sm]STA[/c]"
+
+3027 = "nourishment"
+3028 = "Grants [c_SPD]+2 [spr_icon_spd_sm]SPD[/c] at the beginning of the next turn after using [c_STA][spr_icon_sta_sm]STA[/c]"
+
+3029 = "courage"
+3030 = "First drafted [spr_icon_die_0_sm]die becomes a [c_STA]STA[/c] die"
+
+3031 = "packed up"//--Unused
+3032 = "Has a potion and will use it"
+
+3033 = "bare bones"
+3034 = "Immune to negative stats, but can't use [c_STA][spr_icon_sta_sm]STA[/c]"
+
+3035 = "tough"
+3036 = "Can't receive more than 1 [spr_icon_hp_sm]DMG per turn"
+
+3037 = "dark rituals"
+3038 = "Drafted and granted [c_STA][spr_icon_die_0_sm]STA[/c] dice instantly turn into [c_STA][spr_icon_sta_sm]STA[/c]"
+
+3039 = "unstable"
+3040 = "Starts each turn with a random [spr_icon_die_0_sm]die in every stat"
+
+3041 = "relentless"
+3042 = "[spr_icon_bullet_sm] Can use [c_STA][spr_icon_sta_sm]STA[/c] at any time of the turn\n[spr_icon_bullet_sm] [c_STA][spr_icon_sta_sm]STA[/c] is reset to 2 at the start of each turn"
+
+3043 = "stamina burn"//--UPDATED
+3044 = "[spr_icon_bullet_sm] Opponent loses [c_STA]1 [spr_icon_sta_sm]STA[/c] at the start of each turn\n[spr_icon_bullet_sm] Grants [c_STA]1 [spr_icon_sta_sm]STA[/c] at the start of each turn "
+
+3045 = ""//--Unused
+3046 = "Picks the first [spr_icon_die_0_sm]die in draft"
+
+3047 = "fishing net"
+3048 = "Opponent cannot relocate drafted [spr_icon_die_0_sm]dice"
+
+3049 = "strategist"//--UPDATED
+3050 = "Locks up a [spr_icon_die_0_sm]die at the start of each draft"
+
+3051 = "swift"//--UPDATED
+3052 = "Will always dodge when [c_SPD][spr_icon_spd_sm]SPD[/c] is higher than opponent's"
+
+3053 = "breath of life"
+3054 = "Instantly grants [c_STA]1 [spr_icon_sta_sm]STA[/c] for each opponent's granted [spr_icon_die_0_sm]die"
+
+3055 = "tempt"
+3056 = "At the beginning of each turn, opponent must make a choice:\n[spr_icon_bullet_sm] Pick an item and grant random [spr_icon_die_0_sm]dice to Avarum\nor\n[spr_icon_bullet_sm] Give an item to Avarum"
+
+3057 = "adaptive armor"//---- HAMIR passive
+3058 = "[spr_icon_bullet_sm] Can't use [c_STA][spr_icon_sta_sm]STA[/c]\n[spr_icon_bullet_sm] Gains a [c_STA][spr_icon_die_0_sm]STA[/c] die set at half the current [c_STA][spr_icon_sta_sm]STA[/c] at the start of each turn\n[spr_icon_bullet_sm] -2 [c_STA][spr_icon_sta_sm]STA[/c][c_white] on[/c] [c_pink][spr_icon_connect_sm]Connect[/c]\n[spr_icon_bullet_sm] +2 [c_STA][spr_icon_sta_sm]STA[/c][c_white] on[/c] block or dodge"
+
+3059 = "light-footed"//---- SLADE passive
+3060 = "[spr_icon_bullet_sm] [c_DEF][spr_icon_die_0_sm]DEF[/c] dice always grant +1\n[spr_icon_bullet_sm] If [c_SPD][spr_icon_spd_sm]SPD[/c] is higher than opponent's and can't block, will auto-dodge at the cost of [c_STA]3 [spr_icon_sta_sm]STA[/c]"
+
+3061 = "molten regeneration"//---- ARTEMIS passive 
+3062 = "[c_white]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_white]If possible,[c_white] will auto-consume[/c] [c_STA]5 [spr_icon_sta_sm]STA[/c] [c_white]to[/c] instantly [c_white]recover[/c] 1 [spr_icon_hp_sm]HP"
+
+3063 = "Reckless"//---- NEEDS an updated effect
+3064 = "Can use [c_STA][spr_icon_sta_sm]STA[/c] at any time of the turn"
+
+3065 = "Hero's Conviction"//---- Fleet's Passive
+3066 = "[spr_icon_bullet_sm] All granted [spr_icon_die_0_sm]dice turn into [c_STA][spr_icon_die_0_sm]STA[/c] dice if [c_STA][spr_icon_sta_sm]STA[/c] is 5 or higher at the start of the turn\n[spr_icon_bullet_sm] -1 [c_STA][spr_icon_sta_sm]STA[/c] each time this ability is triggered"
+
+3067 = "shut"
+3068 = "Damaged opponents will become unavailable during the next two turns at the end of the current turn"
+
+3069 = "voracity"
+3070 = "[spr_icon_bullet_sm] Start each turn with random [spr_icon_die_0_sm]dice\n[spr_icon_bullet_sm] Each empty inventory slot will remove one of these [spr_icon_die_0_sm]dice"
+
+3071 = "All drafted [spr_icon_die_0_sm]dice decrease its value by 1"
+3072 = "[c_STA][spr_icon_sta_sm]STA[/c] is reset to 2 at the start of each turn"
+
+//---- Full stat names:
+3100 = "attack"
+3101 = "defense"
+3102 = "accuracy"
+3103 = "speed"
+3104 = "stamina"
+//---- Stat descriptions:
+3105 = "if your [c_ATK][spr_icon_atk_sm]ATK[/c] is greater than your opponent's [c_DEF][spr_icon_def_sm]DEF[/c], your ability will [c_pink][spr_icon_connect_sm]Connect[/c]"
+3106 = "if your [c_DEF][spr_icon_def_sm]DEF[/c] is equal or greater than opponent's [c_ATK][spr_icon_atk_sm]ATK[/c], you'll block their attack"
+3107 = "enables more abilities on this turn"
+3108 = "if your [c_SPD][spr_icon_spd_sm]SPD[/c] is equal or greater than opponent's [c_SPD][spr_icon_spd_sm]SPD[/c], you'll strike first"
+3109 = "can be used to buff any other stat"
+//---- Hints:
+3120 = "you'll be blocked"
+3121 = "you'll take damage"
+3122 = "enemy strikes first" // prevent textbox overflow
+3123 = "enemy will use STA"
+
+//---- Game over / victory screen:
+3110 = "enemies defeated:"
+3111 = "floors explored:"
+3112 = "time spent:"
+3113 = "loot acquired:"
+3114 = "loot lost:" 
+3115 = "gold collected:"
+3116 = "final score:"
+
+3117 = "NOT EQUIPPED"
+3118 = "on [spr_mouse,0] click: "
+3119 = "on `1 press: " // gamepad button prompt (eg. "on RB press:")
+
+//---- Rarity Names:
+3200 = "COMMON"
+3201 = "RARE"
+3202 = "EPIC"
+3203 = "LEGENDARY"
+3204 = "`1 EQUIPMENT"
+3205 = "`1 GEM"
+3206 = "KEY ITEM"
+
+//-------- #REGION NEW SHARED ATTACKS【ONLYかな】
+
+//---- Attacks/Descriptions
+
+3207 = "strike"
+3208 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG"
+
+3210 = "steal"
+3211 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] [c_white]Instantly[/c] [c_grey]steals[/c] [/c][c_yellow]3 [spr_icon_gold_sm]Gold [/c][c_grey]from the opponent"
+3213 = "[c_yellow]No [spr_icon_gold_sm]Gold to steal!"
+
+3214 = "burst"
+3215 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_ATK][spr_icon_die_2_sm]2 ATK[/c] [c_grey]die on the[/c] next turn"
+
+3217 = "guard"
+3218 = "[c_grey]Grants one[/c] [c_DEF][spr_icon_die_3_sm]3 DEF[/c] [c_grey]die on the[/c] next turn"
+
+3220 = "focus"
+3221 = "[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_ATK][spr_icon_die_2_sm]2 ATK[/c] [c_grey]die on the[/c] next turn\n[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_ACC][spr_icon_die_2_sm]2 ACC[/c] [c_grey]die on the[/c] next turn"
+
+3223 = "snipe"
+3224 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] Grants two[/c] [c_STA][spr_icon_die_3_sm][spr_icon_die_3_sm]3 STA[/c] [c_grey]dice on the[/c] next turn\n[c_grey][spr_icon_bullet_sm] [c_white]Instantly[c_grey] grants [c_STA]2 [spr_icon_sta_sm]STA[/c]"
+
+3226 = "taunt"
+3227 = "[c_grey]Inflicts[/c] [c_ACC]-2 [spr_icon_acc_sm]ACC[/c] [c_grey]to the opponent on the[/c] next turn"
+
+3229 = "snack"
+3230 = "[spr_attack_tooltip_icons,0] [c_grey]If [c_STA][spr_icon_sta_sm]STA[/c] [c_grey]is [c_white]3 or lower:\n[c_grey]Instantly [c_grey]grants[/c] [c_STA]3 [spr_icon_sta_sm]STA[/c]\n[spr_attack_tooltip_icons,0] [c_grey]If [c_STA][spr_icon_sta_sm]STA[/c] [c_grey]is [c_white]4 or higher[c_grey]:\n[c_grey]Grants[/c] [c_ATK]+1 [spr_icon_atk_sm]ATK[/c], [c_ACC]+1 [spr_icon_acc_sm]ACC[/c][c_grey] and [c_SPD]+1 [spr_icon_spd_sm]SPD[/c][c_grey] on the[/c] next turn"
+3232 = "I can't recover any more [spr_icon_sta_sm]STA[/c]!"
+
+3233 = "strong"
+3234 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 2 [spr_icon_hp_sm]DMG"
+
+3236 = "react"
+3237 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]grants[/c] [c_DEF]+2 [spr_icon_def_sm]DEF[/c]"
+
+3238 = "resist"
+3239 = "[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]grants[/c] [c_DEF]+2 [spr_icon_def_sm]DEF[/c]\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_DEF][spr_icon_die_2_sm]2 DEF[/c] [c_grey]die on the[/c] next turn"
+
+3240 = "leap"//UNUSED
+3241 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_SPD][spr_icon_die_2_sm]2 SPD[/c] [c_grey]die on the[/c] next turn"
+
+3242 = "bribe"
+3243 = "[c_grey]Spend [c_yellow]5 [spr_icon_gold_sm]Gold[/c][c_grey] to:\n[spr_icon_bullet_sm] [c_white]Instantly [c_grey]grant[/c] [c_DEF]+2 [spr_icon_def_sm]DEF[/c][c_grey] and\n[c_STA]2 [spr_icon_sta_sm]STA[/c][c_grey] for [c_white]each [spr_icon_die_0_sm]die[c_grey] in the [c_DEF][spr_icon_def_sm]DEF[/c][c_grey] slot"
+3244 = "I don't have enough [spr_icon_gold_sm]Gold to bribe with..."//DEPRECATED
+
+3245 = "flurry"
+3246 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] If possible, will spend [c_yellow]10 [spr_icon_gold_sm]Gold [/c][c_grey]to deal [c_white]1 extra [spr_icon_hp_sm]DMG"
+
+3247 = "sprint"
+3248 = "[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_ACC][spr_icon_die_2_sm]2 ACC[/c] [c_grey]die on the[/c] next turn\n[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_SPD][spr_icon_die_3_sm]3 SPD[/c] [c_grey]die on the[/c] next turn"
+
+3249 = "extend"
+3250 = "[c_grey]Duplicates your passive's starting[/c] [c_STA][spr_icon_die_0_sm]STA[/c] [c_grey]die on the[/c] next turn"
+
+//\n[c_grey][spr_icon_bullet_sm][/c] [c_grey]Consumes [c_STA]2 [spr_icon_sta_sm]STA[c_grey] after duplicating
+
+3251 = "quake"
+3252 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] Consumes [c_STA][spr_icon_sta_sm]3 STA[/c][c_grey] to deal [c_white]1 extra [spr_icon_hp_sm]DMG"
+
+3253 = "slash"
+3254 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]inflicts -2 to all[/c] opponent's stats\n[spr_attack_tooltip_icons,0] [c_white]Instantly [c_grey]grants [/c][c_STA][spr_icon_sta_sm]1 STA[/c]"
+
+3255 = "demand"
+3256 = "[c_grey][spr_icon_bullet_sm] [c_white]Instantly[/c] [c_grey]grants:\n [c_grey][spr_icon_bullet_sm] At [c_white]3 [spr_icon_hp_sm]HP[c_grey]: [c_STA]1 [spr_icon_sta_sm]STA[/c][c_grey]\n [c_grey][spr_icon_bullet_sm] At [c_white]2 [spr_icon_hp_sm]HP[c_grey]: [c_STA]2 [spr_icon_sta_sm]STA[/c][c_grey]\n [c_grey][spr_icon_bullet_sm] At [c_white]1 [spr_icon_hp_sm]HP[c_grey]: [c_STA]4 [spr_icon_sta_sm]STA[/c][c_grey]"
+
+3257 = "engage"
+3258 = "[c_white]Instantly[/c] [c_grey]grants[/c] [c_ATK]+3 [spr_icon_atk_sm]ATK[/c]\n[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 2 [spr_icon_hp_sm]DMG\n[spr_icon_bulet_sm][c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG[/c] [c_grey]to [/c]self"
+
+3259 = "fright"
+3260 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] [c_grey]Inflicts[/c] -1 [c_grey]to [/c]all opponent's [spr_icon_die_0_sm]drafted dice[c_grey] on the [/c]next turn"
+
+3261 = "bite"
+3262 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[spr_attack_tooltip_icons,0] [c_grey]Inflicts -1 to[/c] [c_pink]opponent's random stat[/c] [c_grey]on the[/c] next turn"
+
+3263 = "curse"
+3264 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[spr_attack_tooltip_icons,0] [c_grey]Inflicts -2 to[/c] all opponent's stats [c_grey]on the[/c] next turn\n[c_grey]If [c_DEF][spr_icon_def_sm]Blocked:[c_grey]\n[c_grey][spr_icon_bullet_sm] [c_grey]Inflicts[/c] -1 [c_grey]to [/c]all opponent's [spr_icon_die_0_sm]drafted dice[c_grey] on the [/c]next turn"
+
+3265 = "feed"
+3266 = "[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_STA][spr_icon_die_2_sm]2 STA[/c] [c_grey]die on the[/c] next turn[c_grey]\n[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] extra [c_STA][spr_icon_die_2_sm]2 STA[/c] [c_grey]die on the[/c] next turn[c_grey] for each opponent's [c_white]lost [spr_icon_hp_sm]HP"
+
+3267 = "shut"//UNUSUED
+3268 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[spr_attack_tooltip_icons,0] [c_grey]Only [/c][c_STA][spr_icon_sta_sm]STA[/c] [c_grey]dice can be picked during the [/c]next turn"
+
+3269 = "rave"
+3270 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_ATK][spr_icon_die_5_sm]5 ATK[/c] [c_grey]die on the[/c] next turn"
+
+3271 = "drag"
+3272 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[spr_attack_tooltip_icons,0] [c_grey]Inflicts [c_white]-2[c_grey] to[/c] [c_pink]two opponent's random stats[/c] [c_grey]on the[/c] next turn"
+
+3273 = "drill"
+3274 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 2 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] Inflicts [c_STA]-1 [spr_icon_sta_sm]STA[/c][c_grey] to the [c_white]opponent[c_grey]\n[spr_icon_bullet_sm] [c_grey]If possible, [c_white]breaks[c_grey] an opponent's [c_white]gem"
+
+3275 = "melt" 
+3276 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 2 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] If possible, [c_white]removes[c_grey] an opponent's [c_white]equipment\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] Inflicts [c_STA]-2 [spr_icon_sta_sm]STA[/c][c_grey] to the [c_white]opponent[c_grey]"
+
+3277 = "spread"
+3278 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] [c_white]Instantly [c_grey]inflicts[/c] [c_DEF]-3 [spr_icon_def_sm]DEF[/c][c_grey] to [c_white]the opponent"
+
+3279 = "plan"
+3280 = "[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_ATK][spr_icon_die_3_sm]3 ATK[/c] [c_grey]die on the[/c] next turn\n[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_ACC][spr_icon_die_2_sm]2 ACC[/c] [c_grey]die on the[/c] next turn\n[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_SPD][spr_icon_die_2_sm]2 SPD[/c] [c_grey]die on the[/c] next turn"
+
+3281 = "regen"//UNUSED
+3282 = "Instantly [c_grey]grants[/c] [c_STA]3 [spr_icon_sta_sm]STA[/c] [c_grey]"
+
+3283 = "retain"
+3284 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_STA][spr_icon_die_2_sm]2 STA[/c] [c_grey]die on the[/c] next turn"
+
+3285 = "claim"
+3286 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 2 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] Inflicts [c_STA]-1 [spr_icon_sta_sm]STA[/c][c_grey] to the [c_white]opponent[c_grey]\n[spr_icon_bullet_sm] [c_grey]If possible, [c_white]removes[c_grey] an opponent's [c_white]food item"
+
+3287 = "cover"
+3288 = "[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]grants[/c] [c_DEF]+2 [spr_icon_def_sm]DEF[/c]\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_STA][spr_icon_die_2_sm]2 STA[/c] [c_grey]die on the[/c] next turn"
+
+3289 = "break"
+3290 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] [c_white]Instantly[/c] [c_grey]grants:\n [c_grey][spr_icon_bullet_sm] At [c_white]3 [spr_icon_hp_sm]HP[c_grey]: [c_DEF]+1 [spr_icon_def_sm]DEF[/c][c_grey]\n [c_grey][spr_icon_bullet_sm] At [c_white]2 [spr_icon_hp_sm]HP[c_grey]: [c_DEF]+2 [spr_icon_def_sm]DEF[/c][c_grey]\n [c_grey][spr_icon_bullet_sm] At [c_white]1 [spr_icon_hp_sm]HP[c_grey]: [c_DEF]+2 [spr_icon_def_sm]DEF[/c][c_grey] and [c_STA]2 [spr_icon_sta_sm]STA[/c]"
+
+3291 = "stun"
+3292 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]discards one[/c] opponent's [spr_icon_die_0_sm]die\n[c_grey][c_grey][spr_icon_bullet_sm] Grants one[/c] [c_white][spr_icon_die_1_sm]1 [/c][c_grey]die of the [c_white]discarded die's color[c_grey] on the[/c] next turn"
+
+3293 = "drain"//UNUSED
+3294 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]removes [c_white]opponent's [c_STA][spr_icon_die_0_sm]STA[/c][c_grey] dice\n[c_grey][c_grey][spr_icon_bullet_sm] Grants one[/c] [c_STA][spr_icon_die_0_sm] [/c][c_grey]die with the value of the [c_white]highest removed die[c_grey] on the[/c] next turn"
+
+3295 = "haste"
+3296 = "[c_grey]Grants one[/c] [c_SPD][spr_icon_die_2_sm]2 SPD[/c] [c_grey]die on the[/c] next turn"
+
+3297 = "blind"
+3298 = "[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] [c_grey]Inflicts[/c] [c_ATK]-2 [spr_icon_atk_sm]ATK[/c] [c_grey]to the opponent on the[/c] next turn\n[c_grey][spr_icon_bullet_sm] [c_grey]Inflicts[/c] [c_ACC]-2 [spr_icon_acc_sm]ACC[/c] [c_grey]to the opponent on the[/c] next turn"
+
+3299 = "adjust"
+3300 = "[spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_DEF][spr_icon_die_2_sm]2 DEF[/c] [c_grey]dice on the[/c] next turn[c_grey]\nIf[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[spr_attack_tooltip_icons,0] [c_grey]Grants[/c] [c_ATK]+2 [spr_icon_atk_sm]ATK[/c][c_grey] on the[/c] next turn"
+
+3301 = "enrage"
+3302 = "[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey]Grants one[/c] [c_ATK][spr_icon_die_5_sm]5 ATK[/c] [c_grey]die on the[/c] next turn"
+
+3303 = "weaken"
+3304 = "[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey]Inflicts[/c] [c_DEF]-3 [spr_icon_def_sm]DEF[/c] [c_grey]to the opponent on the[/c] next turn"
+
+3305 = "grow"
+3306 = "[c_grey]Grants two[/c] [c_STA][spr_icon_die_4_sm][spr_icon_die_4_sm]4 STA[/c] [c_grey]dice on the[/c] next turn"
+
+3307 = "pound"
+3308 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] Inflicts [c_STA]-1 [spr_icon_sta_sm]STA[/c][c_grey] to the [c_white]opponent[c_grey]"
+
+3309 = "pierce"
+3310 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey][spr_icon_bullet_sm] [c_grey]Grants two[/c] [c_STA][spr_icon_die_1_sm][spr_icon_die_1_sm]1 STA[/c][c_grey] die on the[/c] next turn"
+
+3311 = "avenge"
+3312 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]grants [/c][c_ATK]+3 [spr_icon_atk_sm]ATK[/c]"
+
+3313 = "snatch"
+3314 = "[c_grey][spr_icon_bullet_sm] Grants one [/c][c_STA][spr_icon_die_2_sm]2 STA[/c] [c_grey]die on the[/c] next turn\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] Grants[/c] one [c_STA][spr_icon_die_3_sm]3 STA[/c] [c_grey]die on the[/c] next turn"
+
+3315 = "steam"
+3316 = "[spr_attack_tooltip_icons,0] [c_grey]Grants[/c] one [c_ATK][spr_icon_die_3_sm]3 ATK[/c] [c_grey]die on the[/c] next turn\n[spr_attack_tooltip_icons,0] [c_grey]Grants[/c] one [c_ACC][spr_icon_die_1_sm]1 ACC[/c] [c_grey]die on the[/c] next turn\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[spr_attack_tooltip_icons,0] [c_grey]Inflicts -1 to[/c] all opponent's stats [c_grey]on the[/c] next turn"
+
+3317 = "toast"
+3318 = "[c_grey][spr_icon_bullet_sm] Removes[c_grey] a [c_white]food[c_grey] or [c_white]potion[c_grey] item from [c_white]opponent's[c_grey] inventory\n[spr_icon_bullet_sm] If not possible, [c_white]instantly [c_grey]grants[/c] [c_ATK]+2 [spr_icon_atk_sm]ATK[/c]\n[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG"
+
+3319 = "payoff"
+3320 = "[c_grey][spr_icon_bullet_sm] Removes a [c_white]gem[c_grey] item or [c_yellow]20 [spr_icon_gold_sm]Gold[/c][c_grey] from the [c_white]opponent[c_grey]\n[spr_icon_bullet_sm] If not possible, deals[c_white] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[spr_attack_tooltip_icons,0] [c_grey]Grants two [c_STA][spr_icon_die_4_sm][spr_icon_die_4_sm]4 STA[/c] [c_grey]dice on the[/c] next turn[c_grey]"
+
+3321 = "read"
+3322 = "[c_grey][spr_icon_bullet_sm] Removes[c_grey] a [c_white]scroll[c_grey] item from [c_white]opponent's[c_grey] inventory\n[spr_icon_bullet_sm] If not possible, [c_grey]inflicts -1 to[/c] all opponent's stats [c_grey]on the[/c] next turn\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[spr_attack_tooltip_icons,0] [c_grey]Inflicts [c_STA]-1 [spr_icon_sta_sm]STA[/c][c_grey] to the [c_white]opponent[c_grey]"
+
+3323 = "trauma"
+3324 = "[c_grey]On [c_pink]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 2 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[spr_attack_tooltip_icons,0] [c_grey]Inflicts -2 to[/c] all opponent's stats [c_grey]on the[/c] next turn"
+
+3325 = "shine"
+3326 = "[c_grey][spr_icon_bullet_sm] Removes[c_grey] an [c_white]equipment[c_grey] item from [c_white]opponent's[c_grey] inventory\n[spr_icon_bullet_sm] If not possible, [c_white]instantly [c_grey]inflicts[/c] [c_DEF]-1 [spr_icon_def_sm]DEF[/c][c_grey] to the [c_white]opponent\n[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 2 [spr_icon_hp_sm]DMG"
+
+3327 = "grasp"
+3328 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[c_grey][spr_icon_bullet_sm] [c_white]Grants one [c_STA][spr_icon_die_0_sm]X STA[/c] [c_grey]die on the [c_white]next turn[c_grey], where X is the [c_white]highest value[c_grey] among opponent's dice"
+
+3329 = "hoard"//UNUSED
+3330 = "[c_grey][spr_icon_bullet_sm] [c_white]Instantly[c_grey] removes a [c_white]gem[c_grey] item from the current opponent. If not possible, [c_white]heals 1 [spr_icon_hp_sm] DMG\n[c_grey]If[/c] [c_orange][spr_icon_trap_sm]Damaged:\n[/c][spr_attack_tooltip_icons,0] [c_grey]Grants one[/c] [c_STA][spr_icon_die_4_sm]4 STA[/c] [c_grey]die on the[/c] next turn"
+
+3331 = "roll"
+3332 = "[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]grants[/c] [c_DEF]+2 [spr_icon_def_sm]DEF[/c]\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_ACC][spr_icon_die_3_sm]3 ACC[/c] [c_grey]die on the[/c] next turn"
+
+3333 = "pivot"
+3334 = "[c_grey]On[/c] [c_pink][spr_icon_connect_sm]Connect:[/c]\n[c_grey][spr_icon_bullet_sm] Deals[/c] 1 [spr_icon_hp_sm]DMG\n[/c][spr_attack_tooltip_icons,0] [c_white]Instantly[c_grey] transfers your [c_STA][spr_icon_die_0_sm]STA[/c][c_grey] dice from your [c_ATK][spr_icon_atk_sm]ATK[/c][c_grey] into your [c_DEF][spr_icon_def_sm]DEF[/c] [c_grey]slot"
+
+3335 = "squat"
+3336 = "[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]grants[/c] [c_DEF]+2 [spr_icon_def_sm]DEF[/c]\n[c_grey][spr_icon_bullet_sm] Grants one[/c] [c_ATK][spr_icon_die_2_sm]2 ATK[/c] [c_grey]die on the[/c] next turn\n[c_grey][spr_icon_bullet_sm][c_brey] If [c_white][spr_icon_def_sm]blocks[c_grey] this turn, [c_white]instantly[c_grey] grants [c_STA]2 [spr_icon_sta_sm]STA[/c]"
+
+3337 = "burn"
+3338 = "[c_grey][spr_icon_bullet_sm][/c] Instantly [c_grey]grants[/c] [c_DEF]+2 [spr_icon_def_sm]DEF[/c]\nIf[/c] [c_orange][spr_icon_trap_sm]Damaged:[/c]\n[spr_attack_tooltip_icons,0] [c_grey]Grants[/c] two [c_STA][spr_icon_die_3_sm][spr_icon_die_3_sm]3 STA[/c] [c_grey]dice on the[/c] next turn"
+
+//-------- #ENDREGION NEW SHARED ATTACKS【ONLYかな】
+
+//--- UI:
+5500 = "USE"
+5501 = "CANCEL"
+5502 = "DROP"
+5503 = "BUY"
+5504 = "SELL"
+5505 = "TAKE"
+5506 = "GIVE"
+5507 = "UNEQUIP"
+5508 = "EQUIP"
+5565 = "DEPOSIT"
+5566 = "WITHDRAW"
+5567 = "MAX"
+//
+5509 = "MENU"
+5510 = "MAP"
+5511 = "JOURNAL"
+5512 = "RECENTER" // recenters the camera
+5513 = "@100" //"skip"
+//
+5514 = "FILE " // eg. "File 1", on file loadscreen
+//
+5515 = "gamepad/keys" // controller or keyboard control
+5516 = "mouse" // mouse control
+//
+5517 = "ABANDON QUEST"
+5518 = "CHANGE OPTIONS"
+5519 = "SAVE AND QUIT"
+5520 = "RESUME GAME"
+//
+5521 = "USE ITEM?"
+5522 = "UNEQUIP ITEM?"
+5523 = "EQUIP ITEM?"
+5524 = "SELL ITEM?"
+5525 = "DROP ITEM?"
+//
+5526 = "DODGED" // attack missed
+5527 = "BLOCKED" // attack blocked
+//
+5528 = "Chapter"
+5529 = "Gold"
+5530 = "All Chapters"
+5531 = "PROLOGUE"
+//
+5532 = "Return"
+5533 = "Camera Mode"
+5534 = "Locked" // camera mode
+5535 = "Unlocked" // camera mode
+//
+5536 = "GAMEPLAY"
+5537 = "DISPLAY"
+5538 = "SOUND"
+5539 = "OTHER"
+5540 = "" //PAUSE BETWEEN ATTACKS
+5541 = "COLOR SCHEME"
+5542 = "CONTROLS"
+//
+5543 = "BUYBACK"
+5544 = "GIVE ITEM?"
+//-- Map:
+5550 = "Enemy"
+5551 = "Treasure"
+5552 = "Ally"
+5553 = "Event"
+5554 = "Exit"
+5555 = "Entrance"
+//-- Item types required for various map events
+5556 = "[c_gray]⚡food[/] item"
+5557 = "[c_gray]⚡potion[/] item"
+5558 = "[c_gray]⚡special[/] item"
+5559 = "[c_gray]⚡any[/] item"
+//-- Weapon names:
+5560 = "bow"
+5561 = "maul"
+5562 = "sabre"
+5563 = "axe"
+
+6564 = "default"
+6565 = "deuteranopia"
+6566 = "tritanopia"
+6567 = "protanopia"
+6568 = "Okabe-Ito"
+
+// Challenge Mode UI:
+5568 = "Score submitted!"
+5569 = "Submission failed."
+5570 = "Test your skills by fighting your way through all the biomes in a single run.\nYou get one chance - if you're defeated, you'll have to retry from the beginning!"
+5571 = "Select a character to delve into the Dungeons!"
+5572 = "Balanced\n[spr_icon_bullet_sm] Straightforward abilities\n[spr_icon_bullet_sm] Inflicts low damage"
+5573 = "Defensive\n[spr_icon_bullet_sm] Gets free [spr_icon_sta_sm]STA dice but can't use [spr_icon_sta_sm]STA\n[spr_icon_bullet_sm] Regens [spr_icon_sta_sm]STA when blocking"
+5574 = "Evasive\n[spr_icon_bullet_sm] Can auto-dodge in exchange of [spr_icon_sta_sm]STA\n[spr_icon_bullet_sm] DEF dice are not so useful"
+5575 = "Strong\n[spr_icon_bullet_sm] Can auto-heal in exchange of [spr_icon_sta_sm]STA\n[spr_icon_bullet_sm] Enhanced abilities at low [spr_icon_hp_sm]HP"
+
+// Leaderboards UI:
+5576 = "RANK"
+5577 = "NAME"
+5578 = "FLOOR"
+5579 = "SCORE"
+5580 = "YOU"
+5581 = "WIN"
+5582 = "STATS"
+5583 = "Runs total"
+5584 = "Successful runs"
+5585 = "Highest score"
+5586 = "Average score"
+5587 = "Characters used"
+5588 = "GLOBAL"
+5589 = "FRIENDS"
+5590 = "`1 SCORES"
+
+//---- Intro:
+3700 = "Press" //【Keep ENG】
+3701 = "Press again to skip"
+
+//---- Intro Story: 【漢字OK】
+3702 = "Long, long ago..."
+3703 = "Before history. Before legend, even."
+3704 = "There was a battle between\nthe Elemental forces of Aether..."
+3705 = "...and the darkness from the Abyss."
+3706 = "The fight reshaped the land\nand lasted for generations."
+3707 = "The people of Aether came together - all tribes,\nall elements - and sealed the darkness away."
+3708 = "They freely gave everything they had\nto save each other and the world."
+3709 = "The fallen - and their treasures - were buried\ndeep beneath what is now Julesvale."
+3710 = "Now, countless fortune hunters and adventurers\ndive into the mines to find wealth and excitement."
+3711 = "I fear they'll find a terrible darkness as well..."
+
+//-------- #REGION JOURNALS 【漢字OK】
+
+//---- CHAPTER 1
+//---- Q1F1 (0)
+4000 = "THE UNDERGROUND BULLETIN"
+4001 = "This is your intrepid reporter, Scoop, bringing you the truth about the ins and outs of Julesvale! There's been quite the hubbub around town lately. First off, the influx of new faces has the locals on edge. For every desperate wannabe miner looking to get rich quick, you have three more bandits looking to take advantage of them. The town guard can barely keep the peace!\n\nThis isn't helped by Badger Co., which is only fueling the fire. Their reckless issuing of mining contracts has only emboldened the prospectors who don't seem to care they're losing seventy percent of their earnings to Company President Badger. The local contractors are out of luck, as Badger Co. has muscled them out of the mines. Who can we turn to?\n\nUnfortunately, our “best” option seems to be the self-styled vigilante Fleet. If you need someone to recklessly cause property damage or to rile up Badger Co., you can count on her to make a bad situation worse. Some of the locals say they appreciate the fact that somebody is standing up to the corporate monolith, but just as many are tired of crashed-in ceilings and errant arrows.\n\nThis humble reporter can't speculate on how this will all shake out, but it's clear Julesvale can't endure all these greedy ambitions."
+//---- Q2F1 (1)
+4002 = "@4000"
+4003 = "Scoop here with a retrospective on our omnipresent overlords, Badger Co. They own the mines, they own the town, and they own the Julesvale Gazette. Thank you for choosing me over that rag run by spineless, kowtowing editors!\n\nFounded only twenty years ago, it was one of the many small businesses within the ever-growing Julesvale. Driven by innovation and bold new inventions, founder Alex Badger made numerous investments (some of a dubious nature) to see his company flourish. Badger Co. became the exciting new place to work and soon became the center of town.\n\nAnd then came the buy-outs. Real estate, food stuffs, utilities - it all became a subsidiary of Badger Co. In just a decade everyone in Julesvale was working for Badger Co. whether they knew it or not. Those who spoke up were either muscled out of town - or disappeared. And that's why your intrepid reporter Scoop is publishing this paper under a pen name. You can't bury the truth, but you can bury bodies!"
+//---- Q2F2 (2)
+4004 = "@4000"
+4005 = "Your beloved truth-seeker Scoop is here with an exclusive interview! I was able to sit down and speak with one of the few people to be fired by President Badger himself! For her safety, I'll be calling her “Ms. A. Bunny.”\n\n”I was a technical and mechanical designer for Badger Co.,” Ms. A. Bunny tells me. “They were looking for automated digging solutions. I provided them with a variety of designs meant to keep the operators safe and to move material at a reasonable rate. 'Safety' and 'reasonable' were criteria they weren't terribly concerned about.”\n\nMs. A. Bunny then dropped a juicy tidbit: “I think there's something else going on. Ever since the first amsidian ingot was unearthed, Badger Co. has been ramping up excavation to an insane degree. It can't just be about profits. The fervor they have for gutting the mines is illogical, almost obsessive.” What is it that Badger Co. could be really after? What's driving them to such depths? Your intrepid reporter Scoop will let you know!"
+//---- Q2F2 (3)
+4006 = "@4000"
+4007 = "They say “justice is blind.” That might explain why Julesvale's self-proclaimed “Archer of Justice” misses the mark so often. In this week's latest debacle, the arrow-flinging rogue named Fleet confronted a team of Badger Co. Tenant Enforcers. The corporate goons were set to evict another batch of locals when Fleet descended upon them with a flurry of arrows and curses.\n\nWhile your friend Scoop has no love for Badger Co. or its heartless lackeys, the situation was only made worse by Fleet. After the battle, much of the living complex was wrecked, forcing the tenants to move out anyway. Badger Co. Demolitions was swiftly summoned to condemn the damaged property and set it to be razed. What will go up in its place? You guessed it: Badger. Co. Property's newest set of premium priced housing.\n\nWill the former occupants get access to these new units, or at least a discount? Of course not! Will Badger Co. Realty get called out for hogging all the living space as rental units? Definitely not! And will Fleet be held accountable for making things worse? That's a hat trick of “Nope!” The one silver lining is local philanthropist Randall will be paying for temporary lodging of the displaced locals."
+//---- Q2F3 (4)
+4008 = "@4000"
+4009 = "Julesvale is nestled in the northern foothills of the Archai Mountains, meaning we don't get a lot of traffic. The local shops are used to catering to the odd Wall Runner on a supply run, or dealing with the pushy soldiers of the Air Armada. Even with the influx of treasure hunters, the keen eye of Scoop - your ever-observant reporter - can spot a truly unusual visitor.\n\nIn recent days, I've spotted a unique-looking woman asking questions about the recent amsidian rush and Badger Co.'s mining efforts. She keeps to herself and disappears as quickly as she appears. Only once, when confronted by some of Badger Co.'s goons, did I witness her devastate them with a flurry of crystalline attacks!\n\nI've done some digging, and both her attire and fighting style seem similar to the fabled warrior-monks of Crystal Oasis. According to legend they are Julesvale's neighbors hidden somewhere in the Archai Mountains just south of the Rock Wall. Could it be that the Crystal Oasis exists? Is the mystery woman an emissary, scout, savior...or something more sinister? You can count on Scoop to get you the answers!"
+
+//---- CHAPTER 2
+//---- Q3F1 (5)
+4010 = "@4000"
+4011 = "There have been a lot of new faces in Julesvale, and with them come stories from abroad. Your keen-eared reporter - Scoop - has heard many a tale! While most Julesvalians have at least heard of the other nations on the continent, you'd be hard-pressed to find one who's heard of the lands beyond. This was news even to me!\n\nFar to the south is an island chain called the Polekai Islands. I've heard the people there live in small island communities, living off the land and harvesting from the waves. Many of these islands are “volcanic,” which from my understanding is like the Archai Mountains, only full of fire and explosions. (Nobody tell Emperor Loxodont! We don't need him getting ideas!)\n\nIt may sound like a tropical paradise, but your ever-attentive Scoop has heard the islands are menaced by pirates! Think Air Armada with less ships in the air and more in the water. Some even sail as far north as Merchant Port to rob ships of their cargo! It's a good thing Julesvale is so far inland, am I right, readers?"
+//---- Q3F2 (6)
+4012 = "@4000"
+4013 = "STOP THE PRESSES!\n\nWhich is what I shout to myself as I - your ever-diligent truth-slinger Scoop - discover something huge. Apparently the pirates of the South Ocean, the scallywags of the eastern tides around Merchant Port, have arrived in Julesvale! Land-locked, mountainous Julesvale!\n\nOkay, to be fair, I've only heard about one. Nevertheless, a pirate sailing all the way from the Polekai Islands to our fair town is unthinkable! On second thought, maybe not. Given the surge in rogues and bandits driven by the recent mining rush, is it really that far fetched that another breed of scoundrel would show up?\n\nHow did he get here? Does he plan to go back to sea? Will there be more pirates? Do they really say stuff like “Arr me hearties!” and “Shiver me timbers?” I'm just as hungry for answers as you are, dear reader, so I'll see if I can manage an interview with Julesvale's first pirate!"
+//---- Q3F2 (7)
+4014 = "@4000"
+4015 = "Entire neighborhoods were shaken the other day by deep tremors, and the house of Mrs. McTormert went straight into a sink hole. Mrs. McTormert and her seven pet mudmos are thankfully fine, but understandably frazzled. What caused this sudden shake-up? I'll give you one guess.\n\nDid you say “Badger Co.” or “Fleet?” Either way, you're right! It turns out Badger Co. was doing some heavy-duty digging deep in the Julesvale Mines (and violating City Charter Provision 67A-14B I might add!) Our “hero” Fleet decided to take matters into her own hands and not only wreck their equipment while it was operating, but assaulted one of the foremen!\n\nThe result? Destabilized earth and a whole lot of property damage. Who's going to repair it all? One of Badger Co.'s shell companies. Who's going to end up paying for it? All of us! To all you Fleet sympathizers out there, kindly take her aside and explain to her what “restraint” means, please!"
+//---- Q4F1 (8)
+4016 = "@4000"
+4017 = "Just to the north of our lovely little town is the Rock Wall. This mammoth construction encircles a sixth of the continent and the entirety of the Aetherian Forest. At certain times, the Rock Wall casts day-long shadows on the lands below. It defies definition, even by your humble word-smith, Scoop.\n\nThe Wall Runners guard and maintain the Rock Wall their entire lives. Legend has it that they measure their lifetimes by how many laps they've done of the circumference. I have to wonder about that, since those stories only come from the Wall Runners themselves when they come to our town for supplies or a good time.\n\nIf they're up there running twenty-four/seven, then what are they doing here? If they're “always on duty,” do trips into Julesvale mean they're on the clock? What I'm getting at is: how hard would it be to convince a few of them to take over construction from Badger Co.? I'll take a wall-shaped house over their monopoly any day!"
+//---- Q4F2 (9)
+4018 = "@4000"
+4019 = "This is your ever-classy reporter Scoop with a juicy bit of town gossip! Since Julesvale more-or-less neighbors the Rock Wall, we see our fair share of Wall Runners from time to time. You know the type: stoic, courteous, built like the stone of the Rock Wall itself.\n\nBut a lifetime of guard duty around a bunch of trees can't be for everyone, and I've heard rumors there's an exiled Wall Runner in town! The shame! The scandal! The intrigue!\n\nDid our mysterious outcast choose to leave, or did his fellow Wall Runners give him the boot? What does he hope to achieve by coming to Julesvale? What is his diet and exercise routine? Because I've seen the guy and - whoo! - I am envious. If I can corner him for an interview, I'll share all the details with you my lovely, loyal readers!"
+//---- Q4F2 (10)
+4020 = "@4000"
+4021 = "Times are tough, aren't they folks? That's why your ever-generous truth-slinging Scoop hands out the news for free. (And why waste your money on that Badger Co. mouth-piece rag, the Julesvale Gazette, am I right?)\n\nOne thing we can count on is each other. A pillar of community I'd like to highlight is Old Man Randall. Good ol' Randall has been a part of Julesvale for so long nobody remembers when he arrived. He often jokes he's been here from the start! He pours his heart and soul into this town, but more importantly, his fortune.\n\nEven before the mining rush began, you could count on Randall to hand out ingots of amsidian. Whether or not you really needed it, he was always happy to make everyone a little bit richer. Where does his wealth come from? How long has he really been here? He's a private guy, and I think for all his generosity, we can afford him a bit of privacy."
+//---- Q5F1 (11)
+4022 = "@4000"
+4023 = "With all of today's troubles, it's easy to ignore what's going on abroad. But don't be too relaxed! Your ever-vigilant reporter Scoop has had their ear to the ground. Troubles abroad can have ripple effects. Their troubles today could be our troubles tomorrow.\n\nThe sordid events of which I speak come all the way from the Flame Imperium. The death of Emperor Renburn would be a big deal by itself. He was a moderate ruler (by Firelander standards) so it's sad to see him go. But wait! It turns out his illegitimate son Forsburn assassinated him!\n\nIt gets better! (Or worse, depending on your point of view) The heir apparent, Prince Zetterburn, was passed up for succession while fighting abroad! They crowned the Minister of Trade instead! Nobody knows how things will shake out with Emperor Loxodont, but mark my words, we should all be on guard!"
+//---- Q5F2 (12)
+4024 = "@4000"
+4025 = "We may not see them much in our corner of Aether, but everyone's heard of the Fire Mora. The fierce and ferocious military might of the Flame Imperium operates well outside their borders in the name of “security.” Thankfully, being on the other side of the world puts us out of their reach. And yet!\n\nYour ever-watchful wordsmith - Scoop - has heard reports that one of their ranks is in Julesvale as we speak. Not just any Fire Mora, but a commander! What is she doing so far from home, and without any back-up? Is this a scouting mission preempting an invasion? Or did she just hear how good the food is over in Tapp's inn?\n\nWhatever the case, take my advice and steer clear of her, my beloved readers! You never know what pretense she'll use to burn you to a crisp. I, on the other hand, will be trying to secure an interview. I mean...how could I not?"
+//---- Q5F2 (13)
+4026 = "@4000"
+4027 = "Did you know, my knowledge-hungry readers, that Julesvale actually has a deep and ancient history? According to the archeology department at Julesvale University (Go Spelunkers!), the town is built atop an ancient battle ground.\n\nHow ancient? Some researchers think it might date back before the Rock Wall! Legends tell of a massive battle between unknown factions. Some legends get wild and talk about gods and monsters, but your ever-academic reporter Scoop is trying to remain grounded here.\n\nResearch has been put on indefinite hold due to Badger Co.'s mining operations and the mining rush. We don't have time to learn about our heritage, but plenty of time to dig up riches, huh? What worries me, dear reader, is speculation of an ancient burial site deep below Julesvale. Digging up our homeland is one thing, but let's hope it doesn't get as far as disturbing the dead!"
+
+//---- CHAPTER 3
+//---- Q6F1 (14)
+4028 = "@4000"
+4029 = "Hello, dear readers! Your fearlessly spelunking Scoop is bringing news and experiences to your doorstep so you don't have to! I recently traveled to the depths of the Mineral Deposits beneath Julesvale to see what's what.\n\nThe cave network down here is overflowing with gleaming gems and breathtaking geological formations. Just a handful of the glittering sand down here would make a person wealthy, which is probably why Badger Co. wants to strip-mine the whole thing.\n\nLegend has it that this is the nesting ground of Amethor, the fabled behemoth who fought alongside the gods ages ago. I didn't see any mountain-sized bugs brimming with earthen energy, but seeing the splendor down here makes you wonder if you're in his presence."
+//---- Q6F2 (15)
+4030 = "@4000"
+4031 = "Prepare to have your timbers shivered, dear readers! I managed to parlay with the dashing pirate that's been seen around town! His name is Slade and he's actually on a mission of mercy!\n\nHe is indeed from the Polekai Islands, which I learned have a trio of divine visitors called the Three Tears. Their influence has shaped the Polekai culture from the beginning. One of those beings, simply called “Joy,” stopped appearing, which threw off the balance of the whole island chain. Slade is on the hunt for “Joy” to bring it home. Wild, huh?\n\nBut the pirate got slippery on the details. If he's after a spirit of the sea, why is he deep underground in Julesvale? If he's really out to bring balance and prosperity back to his homeland, why is he stuffing his pockets with riches? Maybe I fell for an elaborate lie, but he certainly seemed sincere when he told me his story."
+//---- Q7F1 (16)
+4032 = "@4000"
+4033 = "Hello, dear readers! It's your intrepid reporter, Scoop, burning with a desire to learn more about what's under Julesvale! I recently braved the fiery Lava Tubes so you don't have to!\n\nThe region lives up to its name with sweltering heat and active magma flows. Well, technically it might be lava since it's exposed, but I was so far underground I dare say it still counts as magma. The intense heat can create all sorts of rare treasures, but I'm honestly not sure if it's worth it. A day after and I still feel like I'm sweating!\n\nLegend has it that the Lava Tubes were carved out by the fire god, Volcorum. The way they tell it in the Aetherian Forest, the earth god Sylvanos chased Volcorum underground, and he was so ashamed of his defeat, he tunneled all the way to the Fire Lands before emerging again. I don't know about all that, but I can confirm it was hot down there!"
+//---- Q7F2 (17)
+4034 = "@4000"
+4035 = "Hold onto your hats, folks! Your smooth-talking Scoop managed to get a few minutes with the exiled Wall Runner we've seen around town! His name is Hamir, and if his looks didn't get you, his story cements him as a heart-breaker.\n\nTurns out our hammer-hefting Hamir had found the love of his life while working on the Wall. But then tragedy struck, and his partner Mattock was killed in the line of duty. Hamir came to Julesvale seeking a new direction in life. I'm sure all of you reading wish him the best.\n\nThere was one detail I couldn't parse out though. He said he was seeking a relic that could potentially revive his partner. But the way he put it, it sounded like he'd have to put someone down to do it. He didn't strike me as the type of guy greedy enough to trade a life for a life. Here's hoping I misunderstood something."
+//---- Q8F1 (18)
+4036 = "@4000"
+4037 = "Hello, dear readers! It's your renegade reporter Scoop! Even when I'm relaxing, I'm working for you! So even though my recent trip beneath Julesvale was lovely, it was no vacation. \n\nThe Underground Oasis has been a long-running rumor in Julesvale for generations. Well guess what? It's real! And it's surreal! Deep underground are pristine waterways and lush greenery. And I'm not talking lichens, I mean trees and such. How does it all grow without sunlight? I'm stumped. But as a good reporter I'll keep investigating!\n\nRumor has it that a real-life serpensaur makes its home in the waters of the oasis. These noble, majestic beasts have so far only been seen in story books and that super popular card game. You know the one. I didn't see it myself, but if I were a serpensaur, I'd definitely want to live down there!"
+//---- Q8F2 (19)
+4038 = "@4000"
+4039 = "You'll recall, dear reader, that I promised you an interview with the Fire Mora captain who'd come to town. Well, she caught me following her, and it turned into an interrogation. Of me. But your ever-resourceful Scoop managed to turn the near-death experience into what we wanted!\n\nHer name is Artemis, and she used to serve directly under Prince Zetterburn. Yes! The Zetterburn! A guy so charming and handsome you want to forget his nation likes to conquer everyone and burn dissidents to ashes! She's on a quest that has to do with the hub-bub of Emperor Loxodont's coronation. Perhaps there's a treasure she needs that only Julesvale holds?\n\nShe was quite tight-lipped about any of the juicer details, but she was also not nearly as blood-thirsty as I expected. Terrifying and aggressive? You bet'cha! But she was a professional through and through. One secret I did manage to learn is she enjoys spicy wooluff gyros! Useful info if you want to ask her out on a date. What? I have a type, okay?"
+
+//---- CHAPTER 4
+//---- Q10F1 (20)
+4040 = "TATTERED NOTES"
+4041 = "Oh Genbu. You only wanted to help. And help you did. We would've fallen a hundred times over if not for the vitality you supplied us. Instead of crypts, we would've filled a necropolis if not for you. You held onto the Drop of Nourishment because you saw all the good you could do. But no good deed goes unpunished.\n\nHow you cried when you came back. The guilt of running away tormented you. But you had no life of your own. Morning, noon and night they came to you. They tried to buy you. Those with a splinter stepped over the dying to seek your blessing. You offered them everything, and still they demanded more.\n\nTheir greed robbed them of your mercy. Your shard can not heal your broken heart nor mend your shattered faith. But still you try. And still you grow, and warp, and change. I've watched you for a century now and you're hardly recognizable. You will grow into the oasis, and leave your shard behind."
+//---- Q10F2 (21)
+4042 = "@4040"
+4043 = "I once held you in such high regard, Hemiunu. No matter what horrors emerged from the Living Night, you held the line. Even before Amethor gifted you with the Shield of Courage, you were a wall against which all opposition fell. You were mighty and it felt right to follow you.\n\nBut you drank too deeply of our love and grew dependent on it. You needed new songs of your valor, new fawning soldiers to loom over. Your greed for relevance and reverence made that unbreakable carapace ring hollow. You could not live without a foe to fight, and so made everyone your enemy.\n\nI've been watching your last stand here in the Mineral Deposits for some time now. Your calls for challengers grow quieter and less frequent. Each declaration of your bravery sounds more frightened than the last. You fought so long against the darkness. Now you'll slip into it without so much as a whimper."
+//---- Q10F2 (22)
+4044 = "@4040"
+4045 = "You were always a lost cause, Icaburn. Everyone thought your brother should've received the Ember of Destruction. You knew it, too, I'm sure. Why else would you have fought so hard if not to prove yourself? You could not be satisfied with simply saving Aether from the Living Night. You greedily wanted to be crowned a hero too.\n\nI remember you standing before the seal, clutching that shard so tight we could hear it sizzle. None of us could make you part with it, but you still feared us. You still feared the scorn you could not burn away. I told the others not to follow you out of pity back then. Now I wish we had. Putting you down then would've been a mercy.\n\nHow long did it take? To burn away each bit of you? Was it out of some twisted sense of penance? Was it punishment? When did the pain become something you enjoyed? I have so many questions, but I do not want the answers. And given what's left of you, you're in no state to answer me."
+
+//---- CHAPTER 5
+//---- Q11F1 (23)
+4046 = "@4000"
+4047 = "No time for introductions, dear readers! I'm printing and distributing emergency info as fast as I can! (You can thank Ms. A. Bunny for the speedy printing services!)\n\nThe monsters seem to be attracted to anything containing amsidian! I don't care how much you paid for it, get rid of it! It's not worth your life!\n\nGrab food, grab a change of clothes, but DO NOT grab your jewelry!"
+//---- Q11F2 (24)
+4048 = "@4000"
+4049 = "DO NOT use the Badger Co. shelters! The monsters are swarming there!\n\nYes, most of the rich folks got access to the shelters first. Laugh about their karma later.\n\nThe exits to town are blocked, and it's record heat out there anyway. Get below! Head into the mines!"
+//---- Q11F3 (25)
+4050 = "@4000"
+4051 = "Head into the mines! It's safe there! The mysterious foreigners I've been reporting on are giving their all to protect an escape route! Shout a thank you while you run by, but get down there for pity's sake!"
+//---- Q11F4 (26)
+4052 = "@4000"
+4053 = "This is Scoop, with maybe my last report. Amid all the horror, I've seen the true heart of Julesvale. People carrying children and elderly, even when they aren't family. Citizens sharing the meager food they brought, or the shirts off their backs to those who couldn't grab anything before running. Everyone is scared, tensions are high, but everyone is helping each other. I know such generosity will get us through this.\n\n'Us.' Well, you all, I guess. I came back to print one last notice to inform people, but now I'm using it as my farewell. I wouldn't be holed up in here if I'd stayed in the mines. But I couldn't stand the thought of someone left behind, who didn't know how to get to safety.\n\nIf you're reading this, DO NOT mount a rescue. Find a way to end this madness. Get the people of Julesvale to safety. Your ol' pal Scoop knows how to get out of a tight spot. And if not? Well, it's been an honor and a privilege to serve you, Julesvale. Stay informed, and stay safe!"
+
+//---- CHAPTER 6
+//---- Q12F1 (27)
+4054 = "@4040"
+4055 = "The other shards were so overt in their power, we couldn't tell what mine did until disaster struck. Genbu's could heal, Hemiunu's could endure, but I...lived. Even before the wounds were closed and the heartbeat resumed, I...lived. The Breath of Life let me go places and do things no one else could. Perfect for an observant scout such as myself.\n\nThe problem, though, is there is no finale. Life has no “happily ever after,” and with my shard I was present to witness that fact. Here in Jules's Valley, out in Godai Delta, even in the frozen Northern Tundra, we sealed away the Living Night. Aether was free to prosper. That was supposed to be our “happily ever after.”\n\nBut then the gods turned on each other. Then the people splintered. They're building a wall around where Sylvanos fell. The Burning Tribes are coming together under a single, terrifying banner. An “Air Alliance” is removing themselves to the Archai Peaks. The peace and unity we fought so hard for is shattering before my eyes."
+//---- Q12F2 (28)
+4056 = "@4040"
+4057 = "The champions who I fought alongside, who were blessed by Amethor, have fallen. I watched as their greed consumed them. It took different forms, but selfishness is selfishness. I dare not recover their shards now, lest I be corrupted as they were. I must remain pure.\n\nSuch is a tall order in a world so devoid of morality. The seal we made is weakening, and I'm certain the people of Aether today cannot stand against the darkness I faced. I struggle to care for their fate, since they squandered what I so freely gave them. But I am the last remaining champion. I must do my duty.\n\nAs before, I will use the Abyss's power against it. The darkness fueled the shards, turning the enemy's own power into elemental might. The matter I'm crafting has a similar effect, and is beautiful to behold as well. I will call it “amsidian,” and I will ensure everyone in Aether wants it. But I will still retain some control, because they can't be trusted. Only I can handle this power. The world is mine to protect, and will be done so on my terms."
+
+//-------- #ENDREGION JOURNALS【ONLYかな】
+
+//-------- #REGION MANUALS 【漢字OK】
+
+4100 = "STATS"
+4101 = "Stats define your potential in combat. [c_ATK][spr_icon_atk_sm]ATK[/c] represents your chances to succesfully land a hit, while [c_DEF][spr_icon_def_sm]DEF[/c] represents your chances to avoid damage ([spr_icon_hp_sm]DMG).\n\nThese two STATS define the basic flow of combat."
+//
+4102 = "ABILITIES"
+4103 = "Abilities allow you to [spr_icon_hp_sm]Damage your opponent, improve your chances for next turn, or decrease your opponent's stats."
+//
+4104 = "CONNECT"
+4105 = "[c_pink][spr_icon_connect_sm]Connect[/c] abilities will always reduce your opponent's Health Points ([spr_icon_hp_sm]HP), but they require that your [c_ATK][spr_icon_atk_sm]ATK[/c] is higher than your enemy's [c_DEF][spr_icon_def_sm]DEF[/c]."
+//
+4106 = "BLOCK"
+4107 = "When your [c_DEF][spr_icon_def_sm]DEF[/c] is equal or higher than your enemy's [c_ATK][spr_icon_atk_sm]ATK[/c], you'll automatically block the incoming [c_pink][spr_icon_connect_sm]Connect[/c] and avoid all its [spr_icon_hp_sm]DMG."
+//
+4108 = "ACCURACY"
+4109 = "[c_ACC][spr_icon_acc_sm]ACC[/c] defines the number of abilities to choose from.\n\nAbilities that require higher [c_ACC][spr_icon_acc_sm]ACC[/c] are more powerful."
+//
+4110 = "SPEED"
+4111 = "[c_SPD][spr_icon_spd_sm]SPD[/c] defines the order in which abilities are executed. You'll act first if your [c_SPD][spr_icon_spd_sm]SPD[/c] is equal to or greater than your opponent's.\n\nThis is crucial to fully utilize the potential of instant abilities."
+//
+4112 = "DRAFT"
+4113 = "You and your opponent will take turn drafting dice. If the color of the die matches the color of the STAT, the die's value will be added to the total STAT value. Otherwise (if the colors don't match), only +1 will be added."
+//
+4114 = "TECHNIQUES"
+4115 = "These types of abilities will ALWAYS grant their effects when used, regardless of the opponent's [c_DEF][spr_icon_def_sm]DEF[/c] or who acts first."
+//
+4116 = "STAMINA"
+4117 = "[c_STA][spr_icon_sta_sm]STA[/c] will allow you to temporarily increase any STAT. [c_STA][spr_icon_sta_sm]STA[/c] can be recovered at the Inn, by using Items, or through some passive abilities."
+//
+4118 = "GEMS"
+4119 = "GEMS will temporarily grant you special abilities. Some of these abilities are automatically triggered, while the others require you to manually activate them.\nGEMS will break after a certain amount of uses."
+//
+4120 = "STA DICE"
+4121 = "These dice will always grant you their full value, no matter the STAT slot they are positioned in."
+//
+4122 = "PASSIVE ABILITIES"
+4123 = "Some characters have passive abilities that will grant them special mechanics.\n\nThey're represented as icons above the character's [spr_icon_hp_sm]HP."
+//
+4124 = "ITEMS"
+4125 = "Consuming items will grant you different effects and can be used at any time."
+//
+4126 = "EQUIPPABLE ITEMS"
+4127 = "These types of items will grant you permanent effects when equipped.\n\nA maximum of 3 can be equipped at the same time. Note that you can't equip or unequip them during battle!"
+//
+4128 = "TRAPS"
+4129 = "These types of abilities will trigger their effects when the character is [spr_icon_hp_sm]Damaged by the opponent."
+
+//-------- #ENDREGION MANUALS
+
+//---- Unlock Pop-ups:
+//---- Inn
+5100 = "You unlocked the inn!"
+5101 = "Have a nice rest and prepare for your next battles during the night."
+//---- Shop
+5102 = "You unlocked the Merchant's Shop!"
+5103 = "Spend your money on consumables that can help you turn the tides of a battle."
+//---- New Attack Title
+5104 = "You unlocked a new attack!"
+
+
+//---- FLEET'S ATTACKS
+//---- React
+5105 = "Take advantage of your [c_SPD][spr_icon_spd_sm]SPD[/c] by instantly increasing your [c_DEF][spr_icon_def_sm]DEF[/c] after a [c_pink][spr_icon_connect_sm]Connect[/c]."
+//---- Focus
+5106 = "Improve your chances to [c_pink][spr_icon_connect_sm]Connect[/c] on the next turn to stage an all-out attack."
+//---- STUN
+5107 = "Mess up your opponent's strategy while building your own for the next round."
+//---- Snack
+5108 = "A great way to recharge your [c_STA][spr_icon_sta_sm]STA[/c] if you can't [c_pink][spr_icon_connect_sm]Connect[/c] this turn."
+//---- SNIPE
+5109 = "Deal one damage this turn and get a big flexibility bonus on the next turn."
+
+
+//---- SLADE ATTACKS
+//---- Slade
+5110 = "His high [c_SPD][spr_icon_spd_sm]SPD[/c] allows him to emerge unharmed from battles as long as he has enough [c_STA][spr_icon_sta_sm]STA[/c]!"
+//---- Bribe
+5111 = "Use your merchant abilities to negotiate [c_STA][spr_icon_sta_sm]STA[/c] and [c_DEF][spr_icon_def_sm]DEF[/c] in exchange of [c_yellow][spr_icon_gold_sm]Gold[/c]." 
+//---- Flurry
+5112 = "Keep the flow of the battle while putting your [c_yellow][spr_icon_gold_sm]Gold[/c] into a more powerful strike."
+
+
+//---- HAMIR ATATCKS
+//---- Hamir
+5113 = "Strong yet inflexible - his approach to using [c_STA][spr_icon_sta_sm]STA[/c] differs drastically from other characters."
+//---- Extend
+5114 = "Focus on your flexibility to duplicate your [c_STA][spr_icon_die_0_sm]STA[/c] bonus die on the next turn."
+//---- Quake 
+5115 = "Transform your stacked [c_STA][spr_icon_sta_sm]STA[/c] into major [spr_icon_dmg_sm]DMG."
+
+
+//---- ARTEMIS ATTACKS
+//---- Artemis
+5116 = "Her ability to regenerate her limbs may turn [spr_icon_hp_sm]DMG into an advantage."
+//---- Demand
+5117 = "Replenish your [c_STA][spr_icon_sta_sm]STA[/c] in proportion to the [spr_icon_hp_sm]DMG you have taken."
+//---- Engage
+5118 = "Cause massive [spr_icon_hp_sm]DMG to your opponent with this reckless ability at the cost of your own [spr_icon_hp_sm]HP."
+
+//---- New Character unlocked
+5120 = "Champion Unlocked: `1!"
+
+//---- FLEET'S GUARD evolving to COVER
+5121 = "Use your [c_DEF][spr_icon_def_sm]DEF[/c] to avoid imminent danger and even attempt to influence your opponent's strategy."
+
+//---- Amsidian introduced:
+5122 = "New Item Unlocked: Amsidian"
+//---- Shard introduced:
+5123 = "You have a Shard now!"
+5124 = "Shards are powerful artifacts which give you a passive ability during combat."
+
+//---- Various UI texts:
+5800 = "Save and quit to title?\nYou can resume from here later."
+5801 = "(RESTORED FROM CHECKPOINT)" // in event of save file corruption, data is restored from last checkpoint
+5802 = "Quit to title?\nUnsaved progress will be lost."
+5803 = "Sound Test" // sound test title
+5804 = "Listen" // sound test action
+5805 = "Channels Playing" // number of sound channels【Keep ENG】
+5806 = "CHAMPIONS" // term for hero characters
+5807 = "PASSIVE ABILITY" // used in battle intros【Keep ENG】
+5808 = "Quit to title?\nAll progress will be lost." // Challenge Mode
+5809 = "confirm" // confirmation button
+5810 = "LANGUAGE" // language option
+5811 = "AUTO"
+5812 = "CHECKPOINT SAVED" // shown when the game saves a checkpoint
+5813 = "Corrupted Julesvale" // location name
+5814 = "Tutorials" // name of a journal section
+5815 = "AVAILABLE ON TITLE" // indicates option can only be set on title screen
+5816 = "Journal Completion" // heading for a percentage value
+5817 = "ALL STATS" // combination of ATK, DEF, ACC, SPD
+5818 = "Something's been activated around here..." // shown when flipping a switch
+5819 = "View Details"  // view details for Battle Log entries
+
+//---- Controller button texts:
+5880 = "L Stick"
+5881 = "R Stick"
+5890 = "[BACKSP]" // 6-char limit in brackets
+5891 = "[ENTER]"
+5892 = "ARROW KEYS"
+5893 = "TAB"
+
+//---- Controller versions of dialog:
+5900 = "Press `1 on a ring to attach it to your gem" //357 GP Button: (A)
+5901 = "I can use `1 to look around, press `2 to move to a room, and use `3 to toggle free-cam." //940 GP Button: (L Stick) (A) (R Stick)
+5902 = "@5027" //5027 GP Button: (A)
+5903 = "Press `1 over your [c_yellow]Golden Watch[/c] to sell it to the merchant." //2602 GP Button: (A)
+5904 = "You can press `1 to quickly move to your abilities." // appended to 1025; GP Button: (L)
+
+//---- Credits: 【Keep ENG】
+5920 = "DESIGN AND ENGINEERING"
+5921 = "Lead Game Designer / Lead Programmer"
+5922 = "Game Designer / Programmer"
+5923 = "Programmer"
+//
+5930 = "ART"
+5931 = "Lead Artist / Animator / Pixel Artist"
+5932 = "Animator / Pixel Artist / VFX"
+5933 = "Battle Background VFX"
+5934 = "Pixel Artist"
+5935 = "Environment Artist / Pixel Artist"
+5936 = "VFX Artist"
+5937 = "Concept Artist / Character Designer"
+5938 = "Cutscene Artist"
+5939 = "Concept Artist / Cover Artist"
+//
+5940 = "STORY"
+5941 = "PRODUCTION"
+5942 = "COMMUNITY MANAGEMENT"
+5943 = "Narrative Director"
+5944 = "Franchise Director"
+5945 = "Lead Producer"
+5946 = "Community Manager"
+//
+5950 = "MUSIC AND SOUND BY `1"
+5951 = "Lead Composer / FM Arranger"
+5952 = "FM Arranger"
+5953 = "Composer"
+5954 = "Sound Effects Designer"
+5955 = "Sound Effects Producer"
+//
+5960 = "ADDITIONAL CREDITS"
+5961 = "Playtesters"
+//
+5968 = "The End"
+5969 = "Thanks for playing!"
+//
+5971 = "Japanese Localization"
+5972 = "Russian Localization"
+5973 = "French Localization"
+5974 = "Spanish Localization"
+
+//-------- #REGION DIALOGS (cont.) 【漢字OK】
+
+//------ ##CHAPTER 0 (PROLOGUE)
+
+//---- Starting scene: >>INTRO
+6000 = "C'mon...c'mon...!"
+6001 = "There's got to be some kind of incriminating evidence stashed here!"
+6002 = "Hey! Who's there? Elliana, if it's you again, I swear..."
+6003 = "[wave]EEK![/wave]"
+6004 = "*ahem* I mean..."
+6005 = "You can't hide your evil deeds forever, you Badger Co. lackey!"
+6006 = "...beg your pardon?"
+6007 = "Prepare to face justice for your crimes against Julesvale!"
+6008 = "Oh wait - I know you.\nYou're that crazy vigilante who harasses folks around town."
+6009 = "I'm [shake]Fleet![/shake] And I'm the Archer of Justice! My aim is always true!"
+6010 = "Uh-huh."
+6011 = "Well, you missed the mark on me. I'm not with Badger Co. anymore, and I certainly don't have any love for them."
+6012 = "A likely story!"
+6013 = "Believe what you want. When I warned them they were being stupid and reckless with their mining operations, they fired me."
+6014 = "It was very public. I'm honestly surprised you didn't hear us hollering across Aether."
+6015 = "Oh-ho! Then you are a kindred spirit! You must delight at the thought of stopping their villainy!"
+6016 = "I wouldn't go that far..."
+6017 = "Although...I wouldn't be opposed to throwing a spanner in their works. It'd give the local businesses a chance to get back on their feet..."
+6018 = "And stop their vile industry from corrupting our fair town with their eldritch...um...vileness!"
+6019 = "Oh boy."
+6020 = "Badger Co. is definitely up to something, but I'm not going to enable your power-fantasy just to see you get hurt."
+6021 = "I can fight! This bow isn't just for show!"
+6022 = "[wave]*sigh*[/wave] Here. Go a few rounds with my little training robot here. Let me see if you actually know how to use that thing."
+6023 = "With pleasure!"
+
+//---- Post-tutorial scene: >>POST_TUTORIAL
+6030 = "That...was actually rather impressive."
+6031 = "I know, right? You're all a-quiver at my archery skills?"
+6032 = "Stop that."
+6033 = "[wave]Hee-hee![/wave] Sorry!"
+6034 = "You might just be able to pull this off..."
+6035 = "First I'm going to clean up the mess you made in here. "
+6036 = "Heh heh...sorry about that. Can I help?"
+6037 = "Yeah. Get out of my way for a bit."
+6038 = "Riiiiight. I'll just... swing by the inn and see if anyone needs help in the meanwhile."
+
+//---- Blueprints quest: >>BLUEPRINTS_INTRO
+6040 = "Alright, partner! What's the plan?"
+6041 = "We're not 'partners'."
+6042 = "If you're serious about this, first we need to do some reconnaissance. I'm sure Badger Co. is modifying the designs I made for them."
+6043 = "Intellectual theft! The fiends!"
+6044 = "More that they don't know what they're doing and somebody could get hurt. Head down into the caverns and see if you can find any\n[c_blue][spr_feather,0] blueprints[/c]."
+6045 = "Are you sure we can't do something more...y'know...[shake]more[/shake]?"
+6046 = "I'm the Archer of Justice! How will anyone know about all the good I'm doing if there's no razzle-dazzle?"
+6047 = "I've already dealt with one vainglorious hot-head. Don't make me regret working with you."
+6048 = "Sorry..."
+6049 = "Think of it this way: if we know how they're building and repairing their diggers, you'll know where to snipe the weak spots, right?"
+6050 = "Hey! Yeah! Now you're talking! Back in a flash!"
+
+//------ ##CHAPTER 1 (cont.)
+
+//---- Post-Kohler battle: >>KOHLER_DEFEATED
+6051 = "H-How...?! All you have is a bow?!"
+6052 = "And a hero's ambition!"
+6053 = "You're insane! You're worse than Old Man Randall!"
+6054 = "Hey now! Mr. Randall is a pillar of the community! You could learn something from his generosity!"
+6055 = "That geezer throws around amsidian like it's nothing! He's going to ruin the market rate!"
+6056 = "You're hopeless. Oh well, my work here is done!"
+6057 = "Wait! How am I supposed to get back to the surface?"
+6058 = "You can walk, just like the rest of us!"
+
+//---- Return to Town after Kohler victory: >>POST_KOHLER
+6060 = "I heard a lot of commotion echoing up from the mines. What happened?"
+6061 = "I single-handedly brought down Badger Co.'s mecha-monstrosity! Also dealt a lethal blow to Foreman Kohler's pride."
+6062 = "Wow. You actually pulled it off."
+6063 = "Was there ever any doubt?"
+6064 = "Frankly? Yes. But I'm happy to be proven wrong."
+6065 = "Well then! What's our next target, partner? A supply line? Ooh! Rob their treasury! [shake]NO![/shake] Take down the company president!"
+6066 = "We. Are. [shake]NOT[/shake]. Partners."
+6067 = "Badger Co. isn't going away overnight. If you want to help me dismantle their grip on Julesvale, you have to have some patience."
+6068 = "But...I'm the hero..."
+6069 = "Are you doing this for Julesvale, or for yourself?"
+6070 = "Well...obviously..."
+6071 = "We're done here."
+
+//------ ##CHAPTER 6
+
+//---- Final Battle:
+
+//Scene 5.2 (map) 2022.11.13 >>NECROMANCER
+7800 = "Ah! First you bring me the shards, now you bring me fresh meat for the sacrifice!"
+7801 = "He's already placed three of the shards!"
+7802 = "Yeah...but not the Breath of Life..."
+7803 = "You can't bring yourself to let it go, can you? Afraid you won't last long without it? Or are you just that greedy?"
+7804 = "You have no room to lecture me! I have been planning this for centuries! I cannot be stopped now!"
+
+//Scene 5.2 (in-battle) 2022.11.13 >>NECROMANCER3
+7810 = "No...we defeated you..."
+7811 = "All my work...all my effort...all my plans..."
+7812 = "All inspired by our whispers through the door."
+7813 = "And now all your achievements are ours."
+
+//Scene 5.3 2022.11.13 >>GREED
+7820 = "Ahhh...after ages of picking away, we are free. We wonder if Envis is still wasting their time at Godai Delta?"
+7821 = "What's this? New champions? We see no army, no behemoths...do you want us all to yourselves?"
+7822 = "Okay, I give up. [shake]What[/shake] is that?"
+7823 = "The darkness Olympia warned us about!"
+7824 = "We are the rightful inhabitants of Aether. You have stolen our world from us, but we are patient."
+7825 = "Your sins tear you down from within while we chip away at your seals and barriers."
+7826 = "Randall eventually gave in to our whispers. His plans were our plans. His army will be our army. And your lives are now ours!"
+7827 = "Here it comes! Don't hold back!"
+
+//Scene 5.4a 2022.11.13 >>GREED_DEFEATED
+7830 = "Curse you, Randall...you took so much of our essence for your amsidian plot...we had barely enough strength to force ourselves through the broken seal..."
+7831 = "Now! Activate the shards and seal it again!"
+//b
+7832 = "Quick! Slot the shards into the door!"
+7833 = "Yes! Lock that thing away, pronto!"
+7834 = "Begone, foul creature!"
+7835 = "And rot in the darkness that spawned you!"
+//c
+7836 = "Great! Now what?"
+7837 = "Olympia said the power of the shards was used to seal the darkness away ages ago..."
+7838 = "And Randall let slip that he and the other champions took back the shards once they were done."
+7839 = "Then that's the key. The shards must remain in the door to keep it locked. If we take them, that thing will just seep back through again one day."
+7840 = "Ooooh that hurts. To leave such priceless treasures stuck in a door..."
+7841 = "I could use the Breath of Life to watch over Julesvale for eternity..."
+7842 = "...but then I'd just be repeating the same mistakes Randall did."
+7843 = "No. For the good of Julesvale - for the good of the world - we have to give them up."
+7844 = "Agreed. It's what Mattock would've done."
+7845 = "I won't risk the threat arising against the Firelands, nor can the shard's power be trusted in the hands of others. It is a reasonable sacrifice."
+7846 = "Not...not even Emperor Loxodont."
+7847 = "I will find another relic to fulfill his desires."
+7848 = "[wave]*sigh*[/wave] There will be other treasures. And being an undead puppet would put a damper on my quest."
+//d
+7849 = "Thank you for your help, everyone. I know I don't deserve your trust, but..."
+7850 = "We all make mistakes. What is important is you had the chance to mend things, and you took it."
+7851 = "Thank you. I know what that means coming from you."
+7852 = "Don't take it the wrong way. We're all just going the extra mile to protect our homes, haha!"
+7853 = "You can't fool me. You've got the heart of a hero hidden under all that scurvy swagger."
+7854 = "You still disgust me. But you fought well, so I'll let it be."
+7855 = "I'm...just going to accept that. And I guess you did just help save my home from a nightmarish end so...thank you." 
+7856 = "So...now what?"
+7857 = "Now we escort everyone back to the surface and celebrate stopping the end of the world!"
+7858 = "Now [wave]that[/wave] is a plan if ever I heard one!"
+7859 = "A chance to celebrate...yes. Let's do it!"
+7860 = "I doubt you dirt-pushers can party like a Firelander. Don't worry. I'll show you how it's done."
+
+// Final boss interactions: 【NEW】
+7861 = "Is that [shake]amsidian[/shake]? How could you resist...?"
+7862 = "[wave]HAHAHA,[/wave] you thought that would work...?"
+
+//---- Epilogues:
+
+// Artemis:
+7900 = "- At the Imperial Palace of the Flame Imperium -"
+7901 = "ARTEMIS: I have returned from the west, my emperor."
+7902 = "ARTEMIS: I...could not retrieve any artifacts, but I did discover a new threat to the empire!"
+7903 = "LOXODONT: Your report will have to wait, captain."
+7904 = "LOXODONT: A more immediate enemy needs your attention."
+7905 = "ARTEMIS: But...yes, my emperor. Where shall my flame be unleashed?"
+7906 = "LOXODONT: Prince Zetterburn has turned traitor and fled to Godai Delta."
+7907 = "LOXODONT: You are to track him down and end his treasonous life while abroad."
+7908 = "LOXODONT: His ashes will not fall on the Firelands."
+7909 = "ARTEMIS: (Zetterburn...a traitor? No. I cannot accept that. But I must obey...)"
+7910 = "ARTEMIS: I will depart at once, Emperor Loxodont. I will be sure to find him as quickly as possible."
+
+// Slade:
+7920 = "- Off the coast of Merchant Port -"
+7921 = "SLADE: So much for finding a mountain of treasure!"
+7922 = "SLADE: But it wasn't a total loss. Saving the world has its perks!"
+7923 = "SLADE: I understand now why Orcane was hoarding all the amsidian in Merchant Port."
+7924 = "SLADE: He was trying to protect the people from the Abyss."
+7925 = "SLADE: Now that the amsidian has lost its power, maybe he'll be more inclined to come home?"
+7926 = "SLADE: I'll stock up on supplies, steal a nice big boat, and be out with the tide!"
+7927 = "SLADE: ...why does it smell like burning...?"
+
+// Hamir:
+7930 = "- Deep underground,\nbeyond the Julesvale caverns -"
+7931 = "OLYMPIA: I'm glad to have the company, but are you sure of this?"
+7932 = "HAMIR: I'm sure. The Black Root came from outside the Rock Wall, but not from the Julesvale Crypts."
+7933 = "HAMIR: There must be more wellsprings of darkness."
+7934 = "OLYMPIA: Right. And they'll be a threat to more than just the Aetherian Forest and Rock Wall."
+7935 = "HAMIR: Correct. I suspect Kragg concluded that himself. I am merely following his example."
+7936 = "HAMIR: And...I think Mattock would understand."
+7937 = "OLYMPIA: I'm sure he would. Now then - let's find and stop the darkness."
+
+// Fleet:
+7940 = "- Ayala's Workshop, Julesvale -"
+7941 = "AYALA: So. You defeated an eldritch horror and saved the world. Satisfied?"
+7942 = "FLEET: Never! Badger Co. may have suffered some losses, but they're still a threat."
+7943 = "FLEET: I won't rest so long as the people of Julesvale need protecting!"
+7944 = "AYALA: Haha!"
+7945 = "AYALA: Listen...I want to thank you. For being so devoted and sincere. I haven't had anyone like that in my life."
+7946 = "FLEET: You're part of Julesvale too, right? I'll always be there for you!"
+7947 = "AYALA: Likewise, partner. I've got your back!"
+7948 = "FLEET: EEEE! You said “partner!”"
+7949 = "FLEET: And look! I managed to find an Air Stone after all was said and done! It's going to take my archery to a whole new level!"
+7950 = "AYALA: Heh. With that kind of arsenal, Badger Co. will be done in no time. Won't you feel bored?"
+7951 = "FLEET: Maybe. In that case, I'll just have to seek out some new rivals..."
+
+//-------- #ENDREGION DIALOGS (cont.)
+
+7952 = "VORACITY will trigger next!"//VORACITY warning
+7953 = "I can now use or drop any items..."//VORACITY warning
+7954 = "Should I spend `1 [c_dk_yellow][spr_icon_gold_sm]Gold[/c] to Dodge?"//Light-footed no STA warning
+
+7955 = "Make sure to check everyone's inventory at the surface.\n" // elevator
+7956 = "Upcoming threat!"
+7957 = "Data will be lost!"
+7958 = "- Quest in Progress -"
+7959 = "Really restart the quest?"
+
+//-------- #BATTLE LOG
+8100 = "BATTLE LOG"
+8101 = "[c_grey]Turn `1 started."
+8102 = "[c_white]`1 [c_grey]got `2 [c_grey]from [c_white]`3[c_grey]." //(char1) got (thing) from (thing). Example: "Artemis got 2 STA from Crab's Claw"
+8103 = " [spr_icon_gold_sm]Gold" //example usage: "123 Gold"
+8104 = "[c_white]`1's [c_grey]passive [c_white]`2[c_grey] was triggered." //(char1)'s passive (passive name) was triggered.
+8105 = "[c_white]`1 [c_grey]triggered." //(item) triggered."
+8106 = "[c_white]`1 [c_grey]transformed it into `2[c_grey]." //after receiving dice: "(item name) transformed it into (new dice value)."
+8107 = "[c_white]`1 [c_grey]used `2[c_grey]." //(char1) used (thing).
+8109 = "[c_white]`1 [c_grey]fainted." //(char1) fainted.
+8110 = "[c_white]`1 [c_grey]took[c_white] `2 [spr_icon_hp_sm]DMG[c_grey]!" //(char1) took (number) DMG!
+8111 = "[c_ACC][spr_icon_acc_sm]ACC[c_grey] was too low!"
+8112 = "[c_white]`1 [c_grey]dodged." //(char1) dodged.
+8113 = "[c_white]`1 [c_grey]blocked." //(char1) blocked.
+8114 = "[c_white]`1 [c_grey]used the [c_white]`2[c_grey] item." //(char1) used the (item name) item.
+8115 = "[c_white]`1 [c_grey]broke!" //(gem name) broke!
+8116 = "[c_white]`1 [c_grey]destroyed the [c_white]`2 [c_grey]item." //(char1) destroyed the (item name) item.
+8117 = "[c_white]`1 [c_grey]was switched to [c_white]`2[c_grey]." //(char1) was switched to (char2)
+8118 = "[c_white]`1 [c_grey]destroyed `2[c_grey]." //Voracity destroyed (dice)
+8119 = "[c_white]`1 [c_grey]gave [c_white]`2 [c_grey]to [c_white]`3[c_grey]." //(char1) gave (item name) to (Avarum)
+
+8199 = "Network Connection"
