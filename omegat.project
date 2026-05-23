@@ -30,7 +30,7 @@
         <remove_tags>false</remove_tags>
         <external_command></external_command>
         <repositories>
-            <repository type="git" url="https://github.com/AnXing233/DungeonsOfAetherTranslation.git">
+            <repository type="git" url="https://github.com/AnXing233/DungeonsOfAetherCNTranslation.git">
                 <mapping local="" repository=""/>
             </repository>
         </repositories>
